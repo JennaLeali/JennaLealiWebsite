@@ -19,14 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Jenna Leali - Data Science and Analytics"
-description: "A portfolio of my data science and analytics projects."
-baseurl: "/JennaLealiWebsite" # Replace with your repository name
-url: "https://JennaLeali.github.io"
+email: jallureleali@gmail.com
+description: "A portfolio of Jenna Leali's data science and analytics projects."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Other Settings
-markdown: kramdown
-permalink: pretty
-paginate: 5
+
+# Build settings
+theme: jekyll-theme-architect
+include: ["assets/css/custom.css"]
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
