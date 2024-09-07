@@ -53,24 +53,40 @@
 
 ---
 
-## Education
-
-![FAU Logo](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/assets/images/fau-logo.png){:height="100px" width="100px"}
-
-**Master of Science in Data Science and Analytics, Florida Atlantic University**  
-[Link to Degree Requirements](https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/)  
-Minor in Artificial Intelligence  
-[Link to Minor Details](https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/)  
-Big Data Analytics Certificate  
-[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)   
-(Expected graduation: Dec 2024)
-
-
-
-**Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College**  
-[Link to Degree Requirements](https://www.fau.edu/honors/academics/majors/data-analytics/)  
-Minor in Economics  
-Graduated: 2024
+<div style="background: linear-gradient(135deg, #ADD8E6, #B0E0E6); padding: 40px; border-radius: 15px; text-align: center; margin-bottom: 40px;">
+  
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF; font-size: 45px; margin-bottom: 30px;">
+    Education
+  </h2>
+  
+  <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    
+    <!-- FAU Logo -->
+    <div>
+      <img src="https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/assets/images/fau-logo.png" alt="FAU Logo" style="max-width: 150px; border-radius: 5px;">
+    </div>
+    
+    <!-- Education Details -->
+    <div style="text-align: left; max-width: 600px;">
+      <h3 style="color: #1E90FF; margin-bottom: 10px;">
+        Master of Science in Data Science and Analytics, Florida Atlantic University
+      </h3>
+      <p><a href="https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/" target="_blank" style="color: #1E90FF;">Link to Degree Requirements</a></p>
+      <p>Minor in Artificial Intelligence - <a href="https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/" target="_blank" style="color: #1E90FF;">Link to Minor Details</a></p>
+      <p>Big Data Analytics Certificate - <a href="https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/" target="_blank" style="color: #1E90FF;">Link to Certificate Details</a></p>
+      <p><strong>(Expected graduation: Dec 2024)</strong></p>
+      
+      <h3 style="color: #1E90FF; margin-top: 30px; margin-bottom: 10px;">
+        Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College
+      </h3>
+      <p><a href="https://www.fau.edu/honors/academics/majors/data-analytics/" target="_blank" style="color: #1E90FF;">Link to Degree Requirements</a></p>
+      <p>Minor in Economics</p>
+      <p><strong>Graduated: 2024</strong></p>
+    </div>
+  
+  </div>
+  
+</div>
 
 ---
 
