@@ -11,18 +11,20 @@ Welcome to my portfolio website! Here you can find my contact information, a lin
 ---
 
 ## Education
-**Master's in Data Science and Analytics**  
+**Master of Science in Data Science and Analytics**  
 [Link to Degree Requirements](https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/)  
-Minor in Artificial Intelligence
-[Link to Minor Details](https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/)
-Big Data Analytics Certificate
-[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)
+Minor in Artificial Intelligence  
+[Link to Minor Details](https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/)  
+Big Data Analytics Certificate  
+[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)  
 **Florida Atlantic University**  
 (Expected graduation: Dec 2024)
 
-**Bachelor's in Data Analytics**  
-[Link to Degree Requirements](https://www.fau.edu/honors/academics/majors/data-analytics/) 
-Minor in Economics
+
+
+**Bachelor of Science in Data Analytics**  
+[Link to Degree Requirements](https://www.fau.edu/honors/academics/majors/data-analytics/)  
+Minor in Economics  
 **Florida Atlantic University Harriet L. Wilkes Honors College**  
 Graduated: 2024
 
