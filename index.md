@@ -71,3 +71,42 @@ Here are some of the data science and analytics projects I've worked on:
 3. **Project 3**: Description for Project 3
 4. **Project 4**: Description for Project 4
 5. **Project 5**: Description for Project 5
+
+---
+
+<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
+  Fun Facts About Me
+</h2>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <div>
+    <p style="font-size: 18px;">
+      1. I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.
+    </p>
+  </div>
+  <div>
+    <img src="assets/images/swim.png" alt="Swimming" style="max-width: 150px; margin-left: 20px;">
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <div>
+    <p style="font-size: 18px;">
+      2. My favorite food is crab legs.
+    </p>
+  </div>
+  <div>
+    <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 150px; margin-left: 20px;">
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <div>
+    <p style="font-size: 18px;">
+      3. I have a Golden Retriever named Murphy.
+    </p>
+  </div>
+  <div>
+    <img src="assets/images/golden.png" alt="Murphy" style="max-width: 150px; margin-left: 20px;">
+  </div>
+</div>
