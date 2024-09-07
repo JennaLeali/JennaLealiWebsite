@@ -48,7 +48,7 @@ Graduated: 2024
 
 ---
 
-## <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #6A5ACD; font-size: 40px;">Resume</h2>
+<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #6A5ACD; font-size: 40px;">Resume</h2>
 
 <div style="display: flex; align-items: center;">
   <div>
