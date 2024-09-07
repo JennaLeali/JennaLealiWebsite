@@ -14,21 +14,19 @@ Welcome to my portfolio website! Here you can find my contact information, a lin
 
 ![FAU Logo](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/assets/images/fau-logo.png){:height="100px" width="100px"}
 
-**Master of Science in Data Science and Analytics**  
+**Master of Science in Data Science and Analytics, Florida Atlantic University**  
 [Link to Degree Requirements](https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/)  
 Minor in Artificial Intelligence  
 [Link to Minor Details](https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/)  
 Big Data Analytics Certificate  
-[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)  
-**Florida Atlantic University**  
+[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)   
 (Expected graduation: Dec 2024)
 
 
 
-**Bachelor of Science in Data Analytics**  
+**Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College**  
 [Link to Degree Requirements](https://www.fau.edu/honors/academics/majors/data-analytics/)  
 Minor in Economics  
-**Florida Atlantic University Harriet L. Wilkes Honors College**  
 Graduated: 2024
 
 ---
@@ -41,7 +39,17 @@ Graduated: 2024
 ---
 
 ## Resume
-[Click here to view my resume](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/resume.pdf)
+
+<div style="display: flex; align-items: center;">
+  <div>
+    <p>
+      [Click here to view my resume](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/resume.pdf)
+    </p>
+  </div>
+  <div>
+    <img src="assets/images/resume.png" alt="Resume Image" style="max-width: 200px; margin-left: 20px;">
+  </div>
+</div>
 
 ---
 
