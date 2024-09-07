@@ -1,11 +1,11 @@
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 40px; border-radius: 15px;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh;">
 
   <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
     Jenna Leali - Data Science and Analytics
   </h1>
 
   <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
-    A portfolio of Jenna Leali's data science and analytics projects.
+    Showcasing my abilities in data science and analytics through projects and experiences.
   </p>
 
   <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px;">
@@ -13,7 +13,7 @@
   </a>
 
   <!-- Image -->
-  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 50%;">
+  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 250px; border-radius: 50%;">
 
 </div>
 
