@@ -12,7 +12,7 @@ Welcome to my portfolio website! Here you can find my contact information, a lin
 
 ## Education
 
-![FAU Logo](assets/images/fau-logo.png){:height="50px" width="50px"}
+![FAU Logo](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/assets/images/fau-logo.png){:height="100px" width="100px"}
 
 **Master of Science in Data Science and Analytics**  
 [Link to Degree Requirements](https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/)  
