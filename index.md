@@ -43,7 +43,7 @@ Graduated: 2024
 <div style="display: flex; align-items: center;">
   <div>
     <p>
-      [Click here to view my resume](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/resume.pdf)
+      <a href="resume.pdf" target="_blank">Click here to view my resume</a>
     </p>
   </div>
   <div>
