@@ -80,12 +80,30 @@
         Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College
       </h3>
       <p><a href="https://www.fau.edu/honors/academics/majors/data-analytics/" target="_blank" style="color: #1E90FF;">Link to Degree Requirements</a></p>
-      <p>Minor in Economics</p>
+      <p>Minor in Economics - <a href="https://www.fau.edu/honors/academics/majors/economics/" target="_blank" style="color: #1E90FF;">Link to Minor Details</a></p>
       <p><strong>Graduated: 2024</strong></p>
     </div>
   
   </div>
   
+</div>
+
+---
+
+<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px; text-align: center; margin-top: 40px;">
+
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; margin-bottom: 30px;">
+    Read My Undergraduate Thesis
+  </h2>
+
+  <p style="font-size: 20px; color: #000;">
+    I completed my undergraduate thesis on data science and analytics at Harriet L. Wilkes Honors College, Florida Atlantic University. You can read it by clicking the button below:
+  </p>
+  
+  <a href="assets/documents/final.pdf" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 20px;">
+    Click here to read my thesis
+  </a>
+
 </div>
 
 ---
