@@ -48,17 +48,28 @@ Graduated: 2024
 
 ---
 
-<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #6A5ACD; font-size: 40px;">Resume</h2>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #E6E6FA; padding: 40px;">
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <p>
-      <a href="resume.pdf" target="_blank" style="font-size: 20px; background-color: #6A5ACD; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Click here to view my resume</a>
-    </p>
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #6A5ACD; font-size: 45px; text-align: center;">
+    Resume
+  </h2>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; width: 50%; margin-top: 30px;">
+    
+    <!-- Left: Resume link -->
+    <div>
+      <a href="resume.pdf" target="_blank" style="font-size: 20px; background-color: #6A5ACD; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+        Click here to view my resume
+      </a>
+    </div>
+
+    <!-- Right: Resume image -->
+    <div>
+      <img src="assets/images/resume.png" alt="Resume Image" style="max-width: 200px;">
+    </div>
+  
   </div>
-  <div>
-    <img src="assets/images/resume.png" alt="Resume Image" style="max-width: 200px; margin-left: 20px;">
-  </div>
+
 </div>
 
 ---
@@ -81,7 +92,7 @@ Here are some of the data science and analytics projects I've worked on:
 <div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px;">
   <div style="text-align: center;">
     <div style="display: inline-block; margin-bottom: 40px;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFB6C1; text-align: center;">
+      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF; text-align: center;">
         1. I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.
       </p>
       <img src="assets/images/swim.png" alt="Swimming" style="max-width: 200px;">
@@ -90,7 +101,7 @@ Here are some of the data science and analytics projects I've worked on:
 
   <div style="text-align: center;">
     <div style="display: inline-block; margin-bottom: 40px;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFD700; text-align: center;">
+      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF; text-align: center;">
         2. My favorite food is crab legs.
       </p>
       <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 200px;">
@@ -99,7 +110,7 @@ Here are some of the data science and analytics projects I've worked on:
 
   <div style="text-align: center;">
     <div style="display: inline-block;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #6A5ACD; text-align: center;">
+      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF; text-align: center;">
         3. I have a Golden Retriever named Murphy.
       </p>
       <img src="assets/images/golden.png" alt="Murphy" style="max-width: 200px;">
