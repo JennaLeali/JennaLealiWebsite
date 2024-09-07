@@ -32,9 +32,19 @@ Graduated: 2024
 ---
 
 ## Contact Information
-- **Email**: [jallureleali@gmail.com](mailto:jallureleali@gmail.com)
-- **LinkedIn**: [JennaLeali](https://www.linkedin.com/in/jennaleali/)
-- **GitHub**: [github.com/JennaLeali](https://github.com/JennaLeali)
+
+<div style="display: flex; align-items: center;">
+  <div>
+    <p>
+      - **Email**: [jallureleali@gmail.com](mailto:jallureleali@gmail.com) <br>
+      - **LinkedIn**: [JennaLeali](https://www.linkedin.com/in/jennaleali/) <br>
+      - **GitHub**: [github.com/JennaLeali](https://github.com/JennaLeali)
+    </p>
+  </div>
+  <div>
+    <img src="assets/images/contact.png" alt="Contact Image" style="max-width: 200px; margin-left: 20px;">
+  </div>
+</div>
 
 ---
 
