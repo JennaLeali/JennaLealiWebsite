@@ -1,0 +1,41 @@
+/* Apply background color */
+body {
+    background-color: #FFFFFF; /* White background */
+    font-family: 'Arial', sans-serif; /* Feel free to change the font */
+}
+
+/* Style for headings (H1, H2, etc.) */
+h1, h2, h3 {
+    color: #6A5ACD; /* Slate Blue for headings */
+}
+
+/* Links */
+a {
+    color: #FF69B4; /* Hot Pink for links */
+}
+
+/* Navigation Bar (if applicable) */
+nav {
+    background-color: #FFD700; /* Gold background for navigation */
+}
+
+nav a {
+    color: #FFFFFF; /* White text for navigation links */
+}
+
+/* Button or link hover effect */
+a:hover {
+    color: #FFB6C1; /* Light Pink on hover */
+}
+
+/* Style for any other sections or text */
+p {
+    color: #6A5ACD; /* Slate Blue for paragraph text */
+}
+
+/* Footer */
+footer {
+    background-color: #FFB6C1; /* Light Pink background for the footer */
+    color: #FFFFFF; /* White text */
+    padding: 10px;
+}
