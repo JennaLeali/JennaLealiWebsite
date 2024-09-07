@@ -18,15 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Jenna Leali - Data Science and Analytics"
-email: jallureleali@gmail.com
-description: "A portfolio of Jenna Leali's data science and analytics projects."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
 theme: jekyll-theme-architect
+include: ["assets/css/custom.css"]
 plugins:
   - jekyll-feed
 
