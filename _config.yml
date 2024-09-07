@@ -18,12 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+title: "Jenna Leali - Data Science and Analytics"
+description: "A portfolio of my data science and analytics projects."
+baseurl: "/JennaLealiWebsite" # Replace with your repository name
+url: "https://JennaLeali.github.io"
 
-
-# Build settings
-include: ["assets/css/custom.css"]
-plugins:
-  - jekyll-feed
+# Other Settings
+markdown: kramdown
+permalink: pretty
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
