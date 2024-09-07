@@ -1,62 +1,11 @@
-/* Apply background color */
-body {
-    background-color: #FFFFFF; /* White background */
-    font-family: 'Arial', sans-serif; /* Feel free to change the font */
+/* Global Reset */
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-/* Style for headings (H1, H2, etc.) */
-h1, h2, h3 {
-    color: #6A5ACD; /* Slate Blue for headings */
-}
-
-/* Links */
-a {
-    color: #FF69B4; /* Hot Pink for links */
-}
-
-/* Navigation Bar (if applicable) */
-nav {
-    background-color: #FFD700; /* Gold background for navigation */
-}
-
-nav a {
-    color: #FFFFFF; /* White text for navigation links */
-}
-
-/* Button or link hover effect */
-a:hover {
-    color: #FFB6C1; /* Light Pink on hover */
-}
-
-/* Style for any other sections or text */
-p {
-    color: #6A5ACD; /* Slate Blue for paragraph text */
-}
-
-/* Footer */
-footer {
-    background-color: #FFB6C1; /* Light Pink background for the footer */
-    color: #FFFFFF; /* White text */
-    padding: 10px;
-}
-
-/* Style for the Resume header */
-h2 {
-    font-family: "Comic Sans MS", cursive, sans-serif; /* Bubble-style font */
-    color: #6A5ACD; /* Light Blue color */
-    font-size: 40px; /* Increase size for the heading */
-}
-
-/* Style for the resume link */
-a.resume-link {
-    font-size: 20px; /* Larger font size */
-    background-color: #6A5ACD; /* Light blue background */
-    color: white; /* White text */
-    padding: 10px 20px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-}
-
-a.resume-link:hover {
-    background-color: #4169E1; /* Slightly darker blue on hover */
+/* Additional styles for the header section */
+header {
+    margin: 0;
+    padding: 0;
 }
