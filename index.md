@@ -157,7 +157,7 @@ Here are some of the data science and analytics projects I've worked on:
 
 ---
 
-<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
+<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FFFFFF; font-size: 50px; text-align: center; margin-bottom: 40px; background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 20px; border-radius: 15px;">
   Fun Facts About Me
 </h2>
 
@@ -168,7 +168,7 @@ Here are some of the data science and analytics projects I've worked on:
 
     <!-- Fun fact 1 -->
     <div style="flex: 1; text-align: center;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF;">
+      <p style="font-size: 22px; font-family: 'Comic Sans MS', cursive; color: #FFFFFF;">
         1. I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.
       </p>
       <img src="assets/images/swim.png" alt="Swimming" style="max-width: 150px; border-radius: 5px;">
@@ -176,7 +176,7 @@ Here are some of the data science and analytics projects I've worked on:
 
     <!-- Fun fact 2 -->
     <div style="flex: 1; text-align: center;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF;">
+      <p style="font-size: 22px; font-family: 'Comic Sans MS', cursive; color: #FFFFFF;">
         2. My favorite food is crab legs.
       </p>
       <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 150px; border-radius: 5px;">
@@ -184,7 +184,7 @@ Here are some of the data science and analytics projects I've worked on:
 
     <!-- Fun fact 3 -->
     <div style="flex: 1; text-align: center;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF;">
+      <p style="font-size: 22px; font-family: 'Comic Sans MS', cursive; color: #FFFFFF;">
         3. I have a Golden Retriever named Murphy.
       </p>
       <img src="assets/images/golden.png" alt="Murphy" style="max-width: 150px; border-radius: 5px;">
