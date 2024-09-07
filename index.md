@@ -97,8 +97,13 @@
   </h2>
 
   <p style="font-size: 20px; color: #000;">
-    I completed my undergraduate thesis on data science and analytics at Harriet L. Wilkes Honors College, Florida Atlantic University. You can read it by clicking the button below:
+    I completed my undergraduate thesis on data science and analytics at Florida Atlantic University. You can read it by clicking the button below:
   </p>
+
+  <!-- Add the Image -->
+  <div style="margin-top: 30px;">
+    <img src="assets/images/thesis.png" alt="Thesis Image" style="max-width: 200px; border-radius: 5px;">
+  </div>
   
   <a href="assets/documents/final.pdf" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 20px;">
     Click here to read my thesis
