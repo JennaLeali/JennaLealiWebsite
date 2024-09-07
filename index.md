@@ -18,7 +18,7 @@ Welcome to my portfolio website! Here you can find my contact information, a lin
 ---
 
 ## Resume
-[Click here to view my resume](resume.pdf)
+[Click here to view my resume](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/resume.pdf)
 
 ---
 
