@@ -157,35 +157,39 @@ Here are some of the data science and analytics projects I've worked on:
 
 ---
 
-<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
+<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
   Fun Facts About Me
 </h2>
 
-<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px;">
-  <div style="text-align: center;">
-    <div style="display: inline-block; margin-bottom: 40px;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF; text-align: center;">
+<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px; text-align: center;">
+
+  <!-- Flex container for fun facts -->
+  <div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
+
+    <!-- Fun fact 1 -->
+    <div style="flex: 1; text-align: center;">
+      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF;">
         1. I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.
       </p>
-      <img src="assets/images/swim.png" alt="Swimming" style="max-width: 200px;">
+      <img src="assets/images/swim.png" alt="Swimming" style="max-width: 150px; border-radius: 5px;">
     </div>
-  </div>
 
-  <div style="text-align: center;">
-    <div style="display: inline-block; margin-bottom: 40px;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF; text-align: center;">
+    <!-- Fun fact 2 -->
+    <div style="flex: 1; text-align: center;">
+      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF;">
         2. My favorite food is crab legs.
       </p>
-      <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 200px;">
+      <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 150px; border-radius: 5px;">
     </div>
-  </div>
 
-  <div style="text-align: center;">
-    <div style="display: inline-block;">
-      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF; text-align: center;">
+    <!-- Fun fact 3 -->
+    <div style="flex: 1; text-align: center;">
+      <p style="font-size: 20px; font-family: 'Brush Script MT', cursive; color: #FFFFFF;">
         3. I have a Golden Retriever named Murphy.
       </p>
-      <img src="assets/images/golden.png" alt="Murphy" style="max-width: 200px;">
+      <img src="assets/images/golden.png" alt="Murphy" style="max-width: 150px; border-radius: 5px;">
     </div>
+
   </div>
+
 </div>
