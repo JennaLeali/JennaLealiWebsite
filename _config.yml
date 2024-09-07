@@ -21,7 +21,6 @@
 
 
 # Build settings
-theme: jekyll-theme-architect
 include: ["assets/css/custom.css"]
 plugins:
   - jekyll-feed
