@@ -33,17 +33,37 @@ Graduated: 2024
 
 ## Contact Information
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <p>
-      <strong>Email:</strong> <a href="mailto:jallureleali@gmail.com">jallureleali@gmail.com</a> <br>
-      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jennaleali/">JennaLeali</a> <br>
-      <strong>GitHub:</strong> <a href="https://github.com/JennaLeali">github.com/JennaLeali</a>
-    </p>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #FFB6C1, #FF69B4); padding: 40px; border-radius: 15px;">
+
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
+    Contact Information
+  </h2>
+
+  <div style="display: flex; flex-direction: column; align-items: center; margin-top: 30px;">
+
+    <!-- Email -->
+    <div style="margin-bottom: 20px;">
+      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+        Click here to email me
+      </a>
+    </div>
+
+    <!-- LinkedIn -->
+    <div style="margin-bottom: 20px;">
+      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+        Click here to see my LinkedIn
+      </a>
+    </div>
+
+    <!-- GitHub -->
+    <div>
+      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+        Click here to visit my GitHub
+      </a>
+    </div>
+  
   </div>
-  <div>
-    <img src="assets/images/contact.png" alt="Contact Image" style="max-width: 200px; margin-left: 20px;">
-  </div>
+
 </div>
 
 ---
