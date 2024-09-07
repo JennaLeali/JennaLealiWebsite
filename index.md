@@ -36,9 +36,9 @@ Graduated: 2024
 <div style="display: flex; align-items: center;">
   <div>
     <p>
-      - **Email**: <a href="mailto:jallureleali@gmail.com">jallureleali@gmail.com</a> <br>
-      - **LinkedIn**: <a href="https://www.linkedin.com/in/jennaleali/">JennaLeali</a> <br>
-      - **GitHub**: <a href="https://github.com/JennaLeali">github.com/JennaLeali</a>
+      <strong>Email:</strong> <a href="mailto:jallureleali@gmail.com">jallureleali@gmail.com</a> <br>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jennaleali/">JennaLeali</a> <br>
+      <strong>GitHub:</strong> <a href="https://github.com/JennaLeali">github.com/JennaLeali</a>
     </p>
   </div>
   <div>
