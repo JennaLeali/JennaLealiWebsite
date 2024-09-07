@@ -90,24 +90,31 @@
 
 ---
 
-<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px; text-align: center; margin-top: 40px;">
+<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 30px; border-radius: 15px; text-align: center; margin-top: 30px;">
 
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; margin-bottom: 30px;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
     Read My Undergraduate Thesis
   </h2>
 
-  <p style="font-size: 20px; color: #000;">
+  <p style="font-size: 18px; color: #000; margin-bottom: 15px;">
     I completed my undergraduate thesis on data science and analytics at Florida Atlantic University. You can read it by clicking the button below:
   </p>
 
-  <!-- Make the image larger -->
-  <div style="margin-top: 30px;">
-    <img src="assets/images/thesis.png" alt="Thesis Image" style="max-width: 300px; border-radius: 5px;">
+  <!-- Make the image larger and reduce the margin -->
+  <div style="margin-bottom: 20px;">
+    <img src="assets/images/thesis.png" alt="Thesis Image" style="max-width: 250px; border-radius: 5px;">
   </div>
   
-  <a href="assets/documents/final.pdf" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 20px;">
+  <a href="assets/documents/final.pdf" target="_blank" style="font-size: 18px; background-color: #FF69B4; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 10px;">
     Click here to read my thesis
   </a>
+
+  <!-- Cool button link to Medallion Award Recipients page -->
+  <div style="margin-top: 20px;">
+    <a href="https://www.fau.edu/honors/current-students/student-awards/medallion-award-recipients/" target="_blank" style="font-size: 18px; background-color: #6A5ACD; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; display: inline-block;">
+      Learn more about the Medallion Award Recipients
+    </a>
+  </div>
 
 </div>
 
