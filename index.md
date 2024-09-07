@@ -48,12 +48,12 @@ Graduated: 2024
 
 ---
 
-## <h2>Resume</h2>
+## <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #6A5ACD; font-size: 40px;">Resume</h2>
 
 <div style="display: flex; align-items: center;">
   <div>
     <p>
-      <a href="resume.pdf" class="resume-link" target="_blank">Click here to view my resume</a>
+      <a href="resume.pdf" target="_blank" style="font-size: 20px; background-color: #6A5ACD; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Click here to view my resume</a>
     </p>
   </div>
   <div>
