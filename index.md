@@ -36,9 +36,9 @@ Graduated: 2024
 <div style="display: flex; align-items: center;">
   <div>
     <p>
-      - **Email**: [jallureleali@gmail.com](mailto:jallureleali@gmail.com) <br>
-      - **LinkedIn**: [JennaLeali](https://www.linkedin.com/in/jennaleali/) <br>
-      - **GitHub**: [github.com/JennaLeali](https://github.com/JennaLeali)
+      - **Email**: <a href="mailto:jallureleali@gmail.com">jallureleali@gmail.com</a> <br>
+      - **LinkedIn**: <a href="https://www.linkedin.com/in/jennaleali/">JennaLeali</a> <br>
+      - **GitHub**: <a href="https://github.com/JennaLeali">github.com/JennaLeali</a>
     </p>
   </div>
   <div>
@@ -48,12 +48,12 @@ Graduated: 2024
 
 ---
 
-## Resume
+## <h2>Resume</h2>
 
 <div style="display: flex; align-items: center;">
   <div>
     <p>
-      <a href="resume.pdf" target="_blank">Click here to view my resume</a>
+      <a href="resume.pdf" class="resume-link" target="_blank">Click here to view my resume</a>
     </p>
   </div>
   <div>

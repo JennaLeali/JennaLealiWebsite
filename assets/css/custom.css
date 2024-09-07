@@ -39,3 +39,24 @@ footer {
     color: #FFFFFF; /* White text */
     padding: 10px;
 }
+
+/* Style for the Resume header */
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Bubble-style font */
+    color: #6A5ACD; /* Light Blue color */
+    font-size: 40px; /* Increase size for the heading */
+}
+
+/* Style for the resume link */
+a.resume-link {
+    font-size: 20px; /* Larger font size */
+    background-color: #6A5ACD; /* Light blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+a.resume-link:hover {
+    background-color: #4169E1; /* Slightly darker blue on hover */
+}
