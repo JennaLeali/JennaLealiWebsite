@@ -1,7 +1,7 @@
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh;">
 
   <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
-    Jenna Leali - Data Science and Analytics
+    Jenna Leali 
   </h1>
 
   <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
@@ -13,10 +13,9 @@
   </a>
 
   <!-- Image -->
-  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 250px; border-radius: 50%;">
+  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%;">
 
 </div>
-
 ---
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #FFB6C1, #FF69B4); padding: 40px; border-radius: 15px;">
