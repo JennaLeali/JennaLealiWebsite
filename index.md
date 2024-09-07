@@ -1,33 +1,21 @@
----
-layout: default
-title: Jenna Leali - Data Science and Analytics
----
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 40px; border-radius: 15px;">
 
-# Jenna Leali
-### Data Science and Analytics
+  <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
+    Jenna Leali - Data Science and Analytics
+  </h1>
 
-Welcome to my portfolio website! Here you can find my contact information, a link to my resume, and my data science projects.
+  <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
+    A portfolio of Jenna Leali's data science and analytics projects.
+  </p>
 
----
+  <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px;">
+    View project on GitHub
+  </a>
 
-## Education
+  <!-- Image -->
+  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 50%;">
 
-![FAU Logo](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/assets/images/fau-logo.png){:height="100px" width="100px"}
-
-**Master of Science in Data Science and Analytics, Florida Atlantic University**  
-[Link to Degree Requirements](https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/)  
-Minor in Artificial Intelligence  
-[Link to Minor Details](https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/)  
-Big Data Analytics Certificate  
-[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)   
-(Expected graduation: Dec 2024)
-
-
-
-**Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College**  
-[Link to Degree Requirements](https://www.fau.edu/honors/academics/majors/data-analytics/)  
-Minor in Economics  
-Graduated: 2024
+</div>
 
 ---
 
@@ -63,6 +51,27 @@ Graduated: 2024
   </div>
 
 </div>
+
+---
+
+## Education
+
+![FAU Logo](https://raw.githubusercontent.com/JennaLeali/JennaLealiWebsite/main/assets/images/fau-logo.png){:height="100px" width="100px"}
+
+**Master of Science in Data Science and Analytics, Florida Atlantic University**  
+[Link to Degree Requirements](https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/)  
+Minor in Artificial Intelligence  
+[Link to Minor Details](https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/)  
+Big Data Analytics Certificate  
+[Link to Certificate Details](https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/)   
+(Expected graduation: Dec 2024)
+
+
+
+**Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College**  
+[Link to Degree Requirements](https://www.fau.edu/honors/academics/majors/data-analytics/)  
+Minor in Economics  
+Graduated: 2024
 
 ---
 
