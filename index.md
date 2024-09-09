@@ -128,37 +128,65 @@
 </script>
 ---
 
-<div id="contact" style="padding: 60px; background: linear-gradient(135deg, #FFB6C1, #FF69B4);">
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
+<!-- Contact Section with Animated Icons and Subtle Background Animation -->
+<div id="contact" style="padding: 60px; background: linear-gradient(135deg, #6A5ACD, #1E90FF); border-radius: 15px; background-size: 400% 400%; animation: gradientAnimation 5s ease infinite;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 45px; text-align: center; margin-bottom: 40px;">
     Contact Information
   </h2>
 
   <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-
-    <!-- Email -->
-    <div style="margin-bottom: 20px;">
-      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none;">
-        Click here to email me
-      </a>
-    </div>
-
-    <!-- LinkedIn -->
-    <div style="margin-bottom: 20px;">
-      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none;">
-        Click here to see my LinkedIn
-      </a>
-    </div>
-
-    <!-- GitHub -->
+    
+    <!-- Email with Icon -->
     <div>
-      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none;">
-        Click here to visit my GitHub
+      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+        <img src="assets/icons/email.png" alt="Email Icon" style="width: 25px;"> Click here to email me
+      </a>
+    </div>
+
+    <!-- LinkedIn with Icon -->
+    <div>
+      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+        <img src="assets/icons/linkedin.png" alt="LinkedIn Icon" style="width: 25px;"> Click here to see my LinkedIn
+      </a>
+    </div>
+
+    <!-- GitHub with Icon -->
+    <div>
+      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+        <img src="assets/icons/github.png" alt="GitHub Icon" style="width: 25px;"> Click here to visit my GitHub
       </a>
     </div>
   
   </div>
-
 </div>
+
+<!-- CSS for Hover Effects and Background Animation -->
+<style>
+  #contact a:hover {
+    background-color: #FFB6C1;
+    transform: scale(1.05);
+  }
+
+  #contact a img {
+    transition: transform 0.3s ease;
+  }
+
+  #contact a:hover img {
+    transform: rotate(360deg);
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
 
 ---
 
