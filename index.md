@@ -12,27 +12,57 @@
 
 
 
-<div id="home" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh; margin-top: 80px;"> <!-- Added margin-top to account for the fixed nav bar -->
+<!-- Compressed Home Section with Rearranged Layout -->
+<div id="home" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 40px; border-radius: 15px; min-height: 80vh; margin-top: 80px;"> 
 
-  <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
-    Jenna Leali 
-  </h1>
+  <!-- Row containing image and name -->
+  <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px;">
+    <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 150px; border-radius: 10%; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+    
+    <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 45px; text-align: center;">
+      Jenna Leali
+    </h1>
+  </div>
 
-  <div class="typing-animation" style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
+  <!-- Typing animation directly below name -->
+  <div class="typing-animation" style="font-size: 20px; color: white; text-align: center; margin-bottom: 20px;">
     <span id="typed-text"></span>
     <span class="cursor">|</span>
   </div>
 
-  <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px;">
+  <!-- Button under typing text -->
+  <a href="https://github.com/JennaLeali" style="font-size: 18px; background-color: #FF69B4; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin-bottom: 20px;">
     View project on GitHub
   </a>
 
-  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+  <!-- Project Cards Section arranged horizontally -->
+  <div style="display: flex; justify-content: center; gap: 10px; margin-top: 30px; width: 90%;">
+    <!-- Project 1 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Project 1</h3>
+      <p style="font-size: 14px;">Data analysis on customer behavior patterns.</p>
+    </div>
 
-  <div style="display: flex; justify-content: center; gap: 20px; margin-top: 50px; width: 80%;">
+    <!-- Project 2 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Project 2</h3>
+      <p style="font-size: 14px;">Machine learning model predicting stock prices.</p>
+    </div>
 
-  <!-- Add Hover Effect to Image -->
+    <!-- Project 3 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Project 3</h3>
+      <p style="font-size: 14px;">Natural language processing for sentiment analysis.</p>
+    </div>
+  </div>
+
+  <!-- CSS for Hover Effects -->
   <style>
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
     img:hover {
       transform: scale(1.2);
       box-shadow: 0 0 30px #FF69B4;
@@ -42,7 +72,7 @@
     .typing-animation #typed-text {
       font-family: 'Comic Sans MS', cursive, sans-serif;
       color: white;
-      font-size: 22px;
+      font-size: 20px;
       white-space: nowrap;
       overflow: hidden;
       border-right: 3px solid white;
@@ -59,53 +89,8 @@
       from, to { border-color: transparent; }
       50% { border-color: white; }
     }
-
-    /* Glowing Effect for Hovering Image */
-    img:hover {
-      transform: scale(1.2);
-      box-shadow: 0 0 30px #FF69B4;
-    }
-
-    /* Cursor animation */
-    .cursor {
-      font-size: 22px;
-      animation: blink-cursor 0.75s step-end infinite;
-    }
-
-    @keyframes blink-cursor {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
   </style>
 
-  <!-- Project Cards Section with Glowing Effect -->
-  <div style="display: flex; justify-content: center; gap: 20px; margin-top: 50px; width: 80%;">
-    <!-- Project 1 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 24px;">Project 1</h3>
-      <p>Data analysis on customer behavior patterns.</p>
-    </div>
-    
-    <!-- Project 2 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 24px;">Project 2</h3>
-      <p>Machine learning model predicting stock prices.</p>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 24px;">Project 3</h3>
-      <p>Natural language processing for sentiment analysis.</p>
-    </div>
-  </div>
-
-  <!-- Add Hover Effect to Project Cards -->
-  <style>
-    .project-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-  </style>
 </div>
 
 <!-- JavaScript for Typing Effect -->
@@ -139,21 +124,21 @@
     <!-- Email with Icon -->
     <div>
       <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
-        <img src="assets/icons/email.png" alt="Email Icon" style="width: 25px;"> Click here to email me
+        <img src="assets/icons/email.png" alt="Email Icon" style="width: 35px;"> Click here to email me
       </a>
     </div>
 
     <!-- LinkedIn with Icon -->
     <div>
       <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
-        <img src="assets/icons/linkedin.png" alt="LinkedIn Icon" style="width: 25px;"> Click here to see my LinkedIn
+        <img src="assets/icons/linkedin.png" alt="LinkedIn Icon" style="width: 35px;"> Click here to see my LinkedIn
       </a>
     </div>
 
     <!-- GitHub with Icon -->
     <div>
       <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
-        <img src="assets/icons/github.png" alt="GitHub Icon" style="width: 25px;"> Click here to visit my GitHub
+        <img src="assets/icons/github.png" alt="GitHub Icon" style="width: 35px;"> Click here to visit my GitHub
       </a>
     </div>
   
