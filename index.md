@@ -313,7 +313,7 @@
   <!-- Slider Container -->
   <div id="slider-container" style="position: relative; max-width: 1000px; margin: 0 auto;">
     <!-- Slider -->
-    <input type="range" id="timeline-slider" min="0" max="7" step="1" value="0" style="width: 100%;">
+    <input type="range" id="timeline-slider" min="0" max="8" step="1" value="0" style="width: 100%;">
 
     <!-- Timeline Dates -->
     <div id="timeline-items" style="display: flex; justify-content: space-between; position: relative; margin-top: 20px;">
