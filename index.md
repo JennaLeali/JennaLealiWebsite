@@ -163,51 +163,131 @@
   </ul>
 
   <!-- Modals for Projects -->
-  <!-- Modal for Building an AI-Powered Tic-Tac-Toe Game in Python -->
-  <div id="myModalTTT" class="modal" style="display: none;">
+  <!-- Modal for Neural Network Classifier -->
+  <div id="myModalNN" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalNN">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Neural Network Classifier with Gradient Descent Learning</h2>
+      <p><strong>Project Overview:</strong> I implemented a single-layer neural network with gradient descent learning, covering forward propagation, sigmoid activation, and training on real data.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Machine Learning: Built a neural network from scratch using gradient descent.</li>
+        <li>Data Visualization: Visualized classifier lines, learning curves, and data points.</li>
+        <li>Python Programming: Used numpy and matplotlib to create custom classes and methods.</li>
+      </ul>
+      <p><a href="assets/documents/Neural Network Classifier with Gradient Descent Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    </div>
+  </div>
+
+  <!-- Modal for Heart Failure Risk Prediction -->
+  <div id="myModalHF" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalHF">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Heart Failure Risk Prediction Using Machine Learning</h2>
+      <p><strong>Project Overview:</strong> Explored clustering, regression, and classification techniques to predict heart failure risk.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Clustering Analysis: Used K-Means, Kernel K-Means, and Expectation Maximization.</li>
+        <li>Regression and Classification: Implemented Linear/Ridge Regression, Naive Bayes, and KNN.</li>
+        <li>Model Comparison and Evaluation: Compared models and performed chi-square tests.</li>
+      </ul>
+      <p><a href="assets/documents/Heart Failure Risk Prediction Using Machine Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    </div>
+  </div>
+
+  <!-- Modal for Threshold-Based Binary Classification -->
+  <div id="myModalTB" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalTB">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Threshold-Based Binary Classification with Visualization</h2>
+      <p><strong>Project Overview:</strong> Solved a two-class classification problem using threshold values for attributes x and y to distinguish between two classes.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Classification & Decision Boundary Visualization.</li>
+        <li>Data Visualization: Created scatter plots for class separation.</li>
+        <li>User Interaction & Error Handling.</li>
+      </ul>
+      <p><a href="assets/documents/Threshold-Based Binary Classification with Visualization.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    </div>
+  </div>
+
+  <!-- Modal for Handwritten Digit Recognition -->
+  <div id="myModalHD" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalHD">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Handwritten Digit Recognition with Feature Engineering</h2>
+      <p><strong>Project Overview:</strong> Loaded the MNIST dataset, split it, and used the average pixel values of a central 4x4 grid to classify digits 0 and 8.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Data Handling and Splitting.</li>
+        <li>Feature Extraction: Average pixel values from central grid.</li>
+        <li>Threshold-Based Classification.</li>
+      </ul>
+      <p><a href="assets/documents/Handwritten Digit Recognition with Feature Engineering and Thresholding.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    </div>
+  </div>
+
+  <!-- Modal for Boolean Logic Operations -->
+  <div id="myModalBL" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBL">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Boolean Logic Operations and Visualization in Python</h2>
+      <p><strong>Project Overview:</strong> Performed AND, OR, and XOR Boolean operations on four input data points using Python.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Logical Operations: AND, OR, and XOR.</li>
+        <li>Data Visualization: Plotted data points with matplotlib.</li>
+        <li>Iteration and Function Design.</li>
+      </ul>
+      <p><a href="assets/documents/Boolean Logic Operations and Visualization in Python.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    </div>
+  </div>
+
+  <!-- Modal for Building Tic-Tac-Toe Game -->
+  <div id="myModalTTT" class="modal">
     <div class="modal-content">
       <span class="close" id="closeModalTTT">&times;</span>
       <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Building an AI-Powered Tic-Tac-Toe Game in Python</h2>
-      <p><strong>Project Overview:</strong> I created a Tic-Tac-Toe game where a player competes against the computer, which uses the Minimax algorithm to make optimal moves.</p>
+      <p><strong>Project Overview:</strong> Created a Tic-Tac-Toe game where the player competes against a Minimax AI-powered computer.</p>
       <p><strong>Key Skills Highlighted:</strong></p>
       <ul>
-        <li>Game Development: Demonstrated how to create a turn-based game with interactive input and display.</li>
-        <li>AI and Search Algorithms: Implemented the Minimax algorithm for decision-making in the game, highlighting my understanding of fundamental AI concepts.</li>
-        <li>Input Validation and Error Handling: Handled user input effectively, ensuring a robust program structure.</li>
+        <li>Game Development: Logic for Tic-Tac-Toe game.</li>
+        <li>AI and Search Algorithms: Implemented Minimax algorithm.</li>
+        <li>Input Validation and Error Handling.</li>
       </ul>
-      <p><a href="assets/documents/Building-an-AI-Powered-Tic-Tac-Toe-Game-in-Python.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+      <p><a href="assets/documents/Building an AI-Powered Tic-Tac-Toe Game in Python.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
     </div>
   </div>
 
   <!-- Modal for CIFAR-10 Image Classification -->
-  <div id="myModalCIFAR" class="modal" style="display: none;">
+  <div id="myModalCIFAR" class="modal">
     <div class="modal-content">
       <span class="close" id="closeModalCIFAR">&times;</span>
       <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">CIFAR-10 Image Classification Using Convolutional Neural Networks</h2>
-      <p><strong>Project Overview:</strong> Built multiple CNN architectures to classify images from the CIFAR-10 dataset into 10 categories, iterating through model building and optimization.</p>
+      <p><strong>Project Overview:</strong> Built CNN architectures to classify images from the CIFAR-10 dataset into 10 categories.</p>
       <p><strong>Key Skills Highlighted:</strong></p>
       <ul>
-        <li>Deep Learning: Built CNNs with convolutional layers, pooling layers, flattening, and fully connected layers for image classification.</li>
-        <li>Model Optimization: Used data augmentation and batch normalization to improve model performance.</li>
-        <li>Evaluation and Plotting: Evaluated models on training, validation, and testing data, plotting loss/accuracy curves to analyze model behavior.</li>
+        <li>Deep Learning: Used CNNs, convolutional layers, pooling layers.</li>
+        <li>Model Optimization: Implemented data augmentation and batch normalization.</li>
+        <li>Evaluation and Plotting.</li>
       </ul>
-      <p><a href="assets/documents/CIFAR-10-Image-Classification-Using-Convolutional-Neural-Networks.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+      <p><a href="assets/documents/CIFAR-10 Image Classification Using Convolutional Neural Networks.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
     </div>
   </div>
 
-  <!-- Modal for Analyzing the Impact of Hurricane Sandy on NYC 311 Service Requests -->
-  <div id="myModalSandy" class="modal" style="display: none;">
+  <!-- Modal for Analyzing Impact of Hurricane Sandy -->
+  <div id="myModalSandy" class="modal">
     <div class="modal-content">
       <span class="close" id="closeModalSandy">&times;</span>
       <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Analyzing the Impact of Hurricane Sandy on NYC 311 Service Requests</h2>
-      <p><strong>Project Overview:</strong> Analyzed the NYC 311 dataset to assess how service requests changed before, during, and after Hurricane Sandy.</p>
+      <p><strong>Project Overview:</strong> Analyzed NYC 311 dataset to assess how service requests changed before, during, and after Hurricane Sandy.</p>
       <p><strong>Key Skills Highlighted:</strong></p>
       <ul>
-        <li>Data Wrangling: Cleaned and processed large datasets, dealing with missing values and duplicates.</li>
-        <li>Data Visualization: Created visualizations to display trends, comparisons, and distributions of service requests over time.</li>
-        <li>Comparative Analysis: Conducted comparative analysis across time periods, complaint types, and agencies, providing insights into the impact of Hurricane Sandy on NYC.</li>
+        <li>Data Wrangling: Cleaned large datasets.</li>
+        <li>Data Visualization: Created visualizations to display trends and comparisons.</li>
+        <li>Comparative Analysis.</li>
       </ul>
-      <p><a href="assets/documents/Analyzing-the-Impact-of-Hurricane-Sandy-on-NYC-311-Service-Requests.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+      <p><a href="assets/documents/Analyzing the Impact of Hurricane Sandy on NYC 311 Service Requests.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
     </div>
   </div>
 
@@ -233,7 +313,6 @@
     border-radius: 10px;
     width: 80%; /* Could be more or less, depending on screen size */
     max-width: 600px;
-    border-radius: 10px;
   }
 
   .close {
@@ -253,115 +332,65 @@
 
 <!-- JavaScript for Modal -->
 <script>
-  // Get the modals
-  var modalNN = document.getElementById("myModalNN");
-  var modalHF = document.getElementById("myModalHF");
-  var modalTB = document.getElementById("myModalTB");
-  var modalHD = document.getElementById("myModalHD");
-  var modalBL = document.getElementById("myModalBL");
-  var modalTTT = document.getElementById("myModalTTT");
-  var modalCIFAR = document.getElementById("myModalCIFAR");
-  var modalSandy = document.getElementById("myModalSandy");
+  // Get modal elements
+  const modals = {
+    NN: document.getElementById("myModalNN"),
+    HF: document.getElementById("myModalHF"),
+    TB: document.getElementById("myModalTB"),
+    HD: document.getElementById("myModalHD"),
+    BL: document.getElementById("myModalBL"),
+    TTT: document.getElementById("myModalTTT"),
+    CIFAR: document.getElementById("myModalCIFAR"),
+    Sandy: document.getElementById("myModalSandy")
+  };
 
-  // Get the buttons that open the modals
-  var btnNN = document.getElementById("openModalNN");
-  var btnHF = document.getElementById("openModalHF");
-  var btnTB = document.getElementById("openModalTB");
-  var btnHD = document.getElementById("openModalHD");
-  var btnBL = document.getElementById("openModalBL");
-  var btnTTT = document.getElementById("openModalTTT");
-  var btnCIFAR = document.getElementById("openModalCIFAR");
-  var btnSandy = document.getElementById("openModalSandy");
+  // Get buttons that open the modals
+  const btns = {
+    NN: document.getElementById("openModalNN"),
+    HF: document.getElementById("openModalHF"),
+    TB: document.getElementById("openModalTB"),
+    HD: document.getElementById("openModalHD"),
+    BL: document.getElementById("openModalBL"),
+    TTT: document.getElementById("openModalTTT"),
+    CIFAR: document.getElementById("openModalCIFAR"),
+    Sandy: document.getElementById("openModalSandy")
+  };
 
-  // Get the <span> elements that close the modals
-  var spanNN = document.getElementById("closeModalNN");
-  var spanHF = document.getElementById("closeModalHF");
-  var spanTB = document.getElementById("closeModalTB");
-  var spanHD = document.getElementById("closeModalHD");
-  var spanBL = document.getElementById("closeModalBL");
-  var spanTTT = document.getElementById("closeModalTTT");
-  var spanCIFAR = document.getElementById("closeModalCIFAR");
-  var spanSandy = document.getElementById("closeModalSandy");
+  // Get close elements for the modals
+  const spans = {
+    NN: document.getElementById("closeModalNN"),
+    HF: document.getElementById("closeModalHF"),
+    TB: document.getElementById("closeModalTB"),
+    HD: document.getElementById("closeModalHD"),
+    BL: document.getElementById("closeModalBL"),
+    TTT: document.getElementById("closeModalTTT"),
+    CIFAR: document.getElementById("closeModalCIFAR"),
+    Sandy: document.getElementById("closeModalSandy")
+  };
 
-  // Open modals
-  btnNN.onclick = function() {
-    modalNN.style.display = "block";
-  }
-  btnHF.onclick = function() {
-    modalHF.style.display = "block";
-  }
-  btnTB.onclick = function() {
-    modalTB.style.display = "block";
-  }
-  btnHD.onclick = function() {
-    modalHD.style.display = "block";
-  }
-  btnBL.onclick = function() {
-    modalBL.style.display = "block";
-  }
-  btnTTT.onclick = function() {
-    modalTTT.style.display = "block";
-  }
-  btnCIFAR.onclick = function() {
-    modalCIFAR.style.display = "block";
-  }
-  btnSandy.onclick = function() {
-    modalSandy.style.display = "block";
-  }
+  // Event listeners to open modals
+  Object.keys(btns).forEach(key => {
+    btns[key].onclick = function(event) {
+      event.preventDefault();
+      modals[key].style.display = "block";
+    };
+  });
 
-  // Close modals
-  spanNN.onclick = function() {
-    modalNN.style.display = "none";
-  }
-  spanHF.onclick = function() {
-    modalHF.style.display = "none";
-  }
-  spanTB.onclick = function() {
-    modalTB.style.display = "none";
-  }
-  spanHD.onclick = function() {
-    modalHD.style.display = "none";
-  }
-  spanBL.onclick = function() {
-    modalBL.style.display = "none";
-  }
-  spanTTT.onclick = function() {
-    modalTTT.style.display = "none";
-  }
-  spanCIFAR.onclick = function() {
-    modalCIFAR.style.display = "none";
-  }
-  spanSandy.onclick = function() {
-    modalSandy.style.display = "none";
-  }
+  // Event listeners to close modals
+  Object.keys(spans).forEach(key => {
+    spans[key].onclick = function() {
+      modals[key].style.display = "none";
+    };
+  });
 
-  // Close modal if clicking outside
+  // Close modal when clicking outside the modal content
   window.onclick = function(event) {
-    if (event.target == modalNN) {
-      modalNN.style.display = "none";
-    }
-    if (event.target == modalHF) {
-      modalHF.style.display = "none";
-    }
-    if (event.target == modalTB) {
-      modalTB.style.display = "none";
-    }
-    if (event.target == modalHD) {
-      modalHD.style.display = "none";
-    }
-    if (event.target == modalBL) {
-      modalBL.style.display = "none";
-    }
-    if (event.target == modalTTT) {
-      modalTTT.style.display = "none";
-    }
-    if (event.target == modalCIFAR) {
-      modalCIFAR.style.display = "none";
-    }
-    if (event.target == modalSandy) {
-      modalSandy.style.display = "none";
-    }
-  }
+    Object.keys(modals).forEach(key => {
+      if (event.target == modals[key]) {
+        modals[key].style.display = "none";
+      }
+    });
+  };
 </script>
 
 ---
