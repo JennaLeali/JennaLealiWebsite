@@ -447,42 +447,23 @@
     box-shadow: 0 0 15px rgba(255, 105, 180, 0.8);
   }
 
-  /* For Firefox and others */
-  input[type="range"]::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #FF69B4;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-
-  input[type="range"]::-moz-range-thumb:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 15px rgba(255, 105, 180, 0.8);
-  }
-
-<!-- Updated CSS for the Timeline and Slider -->
-<style>
+  /* Hide timeline content by default */
   .timeline-content {
     display: none;
     font-family: 'Georgia', serif;
   }
 
-  .timeline-term {
-    font-family: 'Comic Sans MS', cursive;
-    color: #FF69B4;
-  }
-
+  /* Show content when the slider reaches the item */
   .timeline-item.active .timeline-content {
     display: block;
   }
 
+  /* Increase font size when a date is active */
   .timeline-item.active .timeline-term {
     font-size: 22px;
   }
 
+  /* Ensure the text looks polished and consistent */
   .timeline-content p {
     font-size: 14px;
     line-height: 1.5;
