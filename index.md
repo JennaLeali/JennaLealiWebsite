@@ -1,5 +1,5 @@
 <!-- Navigation Bar -->
-<div style="position: fixed; top: 0; left: 0; right: 0; background-color: #6A5ACD; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
+<div style="position: fixed; top: 0; left: 0; right: 0; background-color: #FFC1C1; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <a href="#home" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Home</a>
     <a href="#projects" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Projects</a>
@@ -10,48 +10,46 @@
   </div>
 </div>
 
-
-
-<!-- Compressed Home Section with Rearranged Layout -->
-<div id="home" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 40px; border-radius: 15px; min-height: 80vh; margin-top: 80px;"> 
+<!-- Home Section with Cream and Pink Theme -->
+<div id="home" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #FFF5E4, #FFC1C1); padding: 40px; border-radius: 15px; min-height: 80vh; margin-top: 80px;">
 
   <!-- Row containing image and name -->
   <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px;">
     <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 150px; border-radius: 10%; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
     
-    <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 45px; text-align: center;">
+    <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
       Jenna Leali
     </h1>
   </div>
 
   <!-- Typing animation directly below name -->
-  <div class="typing-animation" style="font-size: 20px; color: white; text-align: center; margin-bottom: 20px;">
+  <div class="typing-animation" style="font-size: 20px; color: #FF69B4; text-align: center; margin-bottom: 20px;">
     <span id="typed-text"></span>
     <span class="cursor">|</span>
   </div>
 
   <!-- Button under typing text -->
-  <a href="https://github.com/JennaLeali" style="font-size: 18px; background-color: #FF69B4; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin-bottom: 20px;">
+  <a href="https://github.com/JennaLeali" style="font-size: 18px; background-color: #FFB6C1; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin-bottom: 20px;">
     View project on GitHub
   </a>
 
   <!-- Project Cards Section arranged horizontally -->
   <div style="display: flex; justify-content: center; gap: 10px; margin-top: 30px; width: 90%;">
     <!-- Project 1 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Project 1</h3>
+    <div class="project-card" style="background-color: #FFF5E4; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px; color: #FF69B4;">Project 1</h3>
       <p style="font-size: 14px;">Data analysis on customer behavior patterns.</p>
     </div>
 
     <!-- Project 2 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Project 2</h3>
+    <div class="project-card" style="background-color: #FFF5E4; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px; color: #FF69B4;">Project 2</h3>
       <p style="font-size: 14px;">Machine learning model predicting stock prices.</p>
     </div>
 
     <!-- Project 3 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Project 3</h3>
+    <div class="project-card" style="background-color: #FFF5E4; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px; color: #FF69B4;">Project 3</h3>
       <p style="font-size: 14px;">Natural language processing for sentiment analysis.</p>
     </div>
   </div>
@@ -65,17 +63,17 @@
     
     img:hover {
       transform: scale(1.2);
-      box-shadow: 0 0 30px #FF69B4;
+      box-shadow: 0 0 30px #FFB6C1;
     }
 
     /* Typing text animation */
     .typing-animation #typed-text {
       font-family: 'Comic Sans MS', cursive, sans-serif;
-      color: white;
+      color: #FF69B4;
       font-size: 20px;
       white-space: nowrap;
       overflow: hidden;
-      border-right: 3px solid white;
+      border-right: 3px solid #FF69B4;
       width: 0;
       animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
     }
@@ -87,7 +85,7 @@
 
     @keyframes blink-caret {
       from, to { border-color: transparent; }
-      50% { border-color: white; }
+      50% { border-color: #FF69B4; }
     }
   </style>
 
@@ -114,8 +112,8 @@
 ---
 
 <!-- Contact Section with Animated Icons and Subtle Background Animation -->
-<div id="contact" style="padding: 60px; background: linear-gradient(135deg, #6A5ACD, #1E90FF); border-radius: 15px; background-size: 400% 400%; animation: gradientAnimation 5s ease infinite;">
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 45px; text-align: center; margin-bottom: 40px;">
+<div id="contact" style="padding: 60px; background: linear-gradient(135deg, #FFF5E4, #FFB6C1); border-radius: 15px; background-size: 400% 400%; animation: gradientAnimation 5s ease infinite;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
     Contact Information
   </h2>
 
@@ -123,21 +121,21 @@
     
     <!-- Email with Icon -->
     <div>
-      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FFD7D7; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
         <img src="assets/icons/email.png" alt="Email Icon" style="width: 35px;"> Click here to email me
       </a>
     </div>
 
     <!-- LinkedIn with Icon -->
     <div>
-      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FFD7D7; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
         <img src="assets/icons/linkedin.png" alt="LinkedIn Icon" style="width: 35px;"> Click here to see my LinkedIn
       </a>
     </div>
 
     <!-- GitHub with Icon -->
     <div>
-      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FFD7D7; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
         <img src="assets/icons/github.png" alt="GitHub Icon" style="width: 35px;"> Click here to visit my GitHub
       </a>
     </div>
@@ -148,7 +146,7 @@
 <!-- CSS for Hover Effects and Background Animation -->
 <style>
   #contact a:hover {
-    background-color: #FFD7D7; /* Slightly lighter pink on hover */
+    background-color: #FFE5E5; /* Slightly lighter pink on hover */
     transform: scale(1.05);
   }
 
@@ -175,8 +173,8 @@
 
 ---
 
-<div id="education" style="padding: 60px; background: linear-gradient(135deg, #ADD8E6, #87CEFA);">
-  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF;">Education</h2>
+<div id="education" style="padding: 60px; background: linear-gradient(135deg, #FFE5E5, #FFD7D7);">
+  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4;">Education</h2>
   
   <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     
@@ -187,19 +185,19 @@
     
     <!-- Education Details -->
     <div style="text-align: left; max-width: 600px;">
-      <h3 style="color: #1E90FF; margin-bottom: 10px;">
+      <h3 style="color: #FF69B4; margin-bottom: 10px;">
         Master of Science in Data Science and Analytics, Florida Atlantic University
       </h3>
-      <p><a href="https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/" target="_blank" style="color: #1E90FF;">Link to Degree Requirements</a></p>
-      <p>Minor in Artificial Intelligence - <a href="https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/" target="_blank" style="color: #1E90FF;">Link to Minor Details</a></p>
-      <p>Big Data Analytics Certificate - <a href="https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/" target="_blank" style="color: #1E90FF;">Link to Certificate Details</a></p>
+      <p><a href="https://www.fau.edu/engineering/eecs/graduate/ms/data-science-and-analytics/courses/" target="_blank" style="color: #FF69B4;">Link to Degree Requirements</a></p>
+      <p>Minor in Artificial Intelligence - <a href="https://www.fau.edu/engineering/eecs/undergraduate/minors/artificial-intelligence/" target="_blank" style="color: #FF69B4;">Link to Minor Details</a></p>
+      <p>Big Data Analytics Certificate - <a href="https://www.fau.edu/engineering/eecs/graduate/certificates/big-data/" target="_blank" style="color: #FF69B4;">Link to Certificate Details</a></p>
       <p><strong>(Expected graduation: Dec 2024)</strong></p>
       
-      <h3 style="color: #1E90FF; margin-top: 30px; margin-bottom: 10px;">
+      <h3 style="color: #FF69B4; margin-top: 30px; margin-bottom: 10px;">
         Bachelor of Science in Data Analytics, Florida Atlantic University Harriet L. Wilkes Honors College
       </h3>
-      <p><a href="https://www.fau.edu/honors/academics/majors/data-analytics/" target="_blank" style="color: #1E90FF;">Link to Degree Requirements</a></p>
-      <p>Minor in Economics - <a href="https://www.fau.edu/honors/academics/majors/economics/" target="_blank" style="color: #1E90FF;">Link to Minor Details</a></p>
+      <p><a href="https://www.fau.edu/honors/academics/majors/data-analytics/" target="_blank" style="color: #FF69B4;">Link to Degree Requirements</a></p>
+      <p>Minor in Economics - <a href="https://www.fau.edu/honors/academics/majors/economics/" target="_blank" style="color: #FF69B4;">Link to Minor Details</a></p>
       <p><strong>Graduated: 2024</strong></p>
     </div>
   
@@ -209,7 +207,7 @@
 
 ---
 
-<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 30px; border-radius: 15px; text-align: center; margin-top: 30px;">
+<div style="background: linear-gradient(135deg, #FFD7D7, #FFF5E4); padding: 30px; border-radius: 15px; text-align: center; margin-top: 30px;">
 
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
     Read My Undergraduate Thesis
@@ -230,7 +228,7 @@
 
   <!-- Cool button link to Medallion Award Recipients page -->
   <div style="margin-top: 20px;">
-    <a href="https://www.fau.edu/honors/current-students/student-awards/medallion-award-recipients/" target="_blank" style="font-size: 18px; background-color: #6A5ACD; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; display: inline-block;">
+    <a href="https://www.fau.edu/honors/current-students/student-awards/medallion-award-recipients/" target="_blank" style="font-size: 18px; background-color: #FFB6C1; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; display: inline-block;">
       Learn more about the Medallion Award Recipients
     </a>
   </div>
@@ -240,8 +238,8 @@
 ---
 
 <!-- Enhanced Resume Section with Rotating Border and Pulse Hover Effect -->
-<div id="resume" style="padding: 60px; background: linear-gradient(135deg, #6A5ACD, #1E90FF); border-radius: 15px; position: relative; overflow: hidden;">
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 45px; text-align: center; margin-bottom: 40px;">
+<div id="resume" style="padding: 60px; background: linear-gradient(135deg, #FFE5E5, #FFD7D7); border-radius: 15px; position: relative; overflow: hidden;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
     Resume
   </h2>
 
@@ -307,8 +305,8 @@
 
 ---
 
-<div id="projects" style="padding: 60px; background-color: #F0F8FF;">
-  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF;">
+<div id="projects" style="padding: 60px; background-color: #FFF5E4;">
+  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4;">
     Projects
   </h2>
   <p style="text-align: center;">Here are some of the data science and analytics projects I’ve worked on:</p>
@@ -323,12 +321,12 @@
 
 ---
 
-<div id="fun-facts" style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 60px; border-radius: 15px;">
+<div id="fun-facts" style="background: linear-gradient(135deg, #FFE5E5, #FFD7D7); padding: 60px; border-radius: 15px;">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
     Fun Facts About Me
   </h2>
 
-<div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px; text-align: center;">
+<div style="background: linear-gradient(135deg, #FFE5E5, #FFD7D7); padding: 40px; border-radius: 15px; text-align: center;">
 
   <!-- Flex container for fun facts -->
   <div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
