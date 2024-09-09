@@ -928,10 +928,10 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="assets/images/swimming.png" alt="Swimming" style="max-width: 100%; border-radius: 10px;">
+          <img src="assets/images/swim.png" alt="Swimming" style="max-width: 100%; border-radius: 10px;">
         </div>
         <div class="flip-card-back">
-          <p style="font-family: 'Georgia', serif; color: #FF69B4;">I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.</p>
+          <p style="font-family: 'Georgia', serif; color: white; text-align: center;">I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.</p>
         </div>
       </div>
     </div>
@@ -940,10 +940,10 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="assets/images/crab_legs.png" alt="Crab Legs" style="max-width: 100%; border-radius: 10px;">
+          <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 100%; border-radius: 10px;">
         </div>
         <div class="flip-card-back">
-          <p style="font-family: 'Georgia', serif; color: #FF69B4;">My favorite food is crab legs.</p>
+          <p style="font-family: 'Georgia', serif; color: white; text-align: center;">My favorite food is crab legs.</p>
         </div>
       </div>
     </div>
@@ -952,10 +952,10 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="assets/images/murphy.png" alt="Murphy" style="max-width: 100%; border-radius: 10px;">
+          <img src="assets/images/golden.png" alt="Murphy" style="max-width: 100%; border-radius: 10px;">
         </div>
         <div class="flip-card-back">
-          <p style="font-family: 'Georgia', serif; color: #FF69B4;">I have a Golden Retriever named Murphy.</p>
+          <p style="font-family: 'Georgia', serif; color: white; text-align: center;">I have a Golden Retriever named Murphy.</p>
         </div>
       </div>
     </div>
@@ -1014,5 +1014,6 @@
     align-items: center;
     padding: 15px;
     font-family: 'Georgia', serif;
+    text-align: center;
   }
 </style>
