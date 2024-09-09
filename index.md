@@ -4,9 +4,11 @@
     Jenna Leali 
   </h1>
 
-  <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
-    Showcasing my abilities in data science and analytics through projects and experiences.
-  </p>
+  <!-- Typing Text Animation -->
+  <div class="typing-animation" style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
+    <span id="typed-text"></span>
+    <span class="cursor">|</span>
+  </div>
 
   <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px;">
     View project on GitHub
@@ -20,6 +22,45 @@
     img:hover {
       transform: scale(1.2);
       box-shadow: 0 0 30px #FF69B4;
+    }
+    
+    /* Typing text animation */
+    .typing-animation #typed-text {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: white;
+      font-size: 22px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid white;
+      width: 0;
+      animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: white; }
+    }
+
+    /* Glowing Effect for Hovering Image */
+    img:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 30px #FF69B4;
+    }
+
+    /* Cursor animation */
+    .cursor {
+      font-size: 22px;
+      animation: blink-cursor 0.75s step-end infinite;
+    }
+
+    @keyframes blink-cursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
   </style>
 
@@ -46,14 +87,24 @@
   
 </div>
 
-<!-- CSS for Hover Effects -->
-<style>
-  /* Hover effect to enlarge and add glow to the project cards */
-  .project-card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 30px #FFD700; /* Adds a golden glow */
-  }
-</style>
+<!-- JavaScript for Typing Effect -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const typedText = "Showcasing my abilities in data science and analytics through projects and experiences.";
+    let i = 0;
+    const typingSpeed = 50; // Speed in milliseconds
+
+    function typeWriter() {
+      if (i < typedText.length) {
+        document.getElementById("typed-text").innerHTML += typedText.charAt(i);
+        i++;
+        setTimeout(typeWriter, typingSpeed);
+      }
+    }
+
+    typeWriter();
+  });
+</script>
 ---
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #FFB6C1, #FF69B4); padding: 40px; border-radius: 15px;">
