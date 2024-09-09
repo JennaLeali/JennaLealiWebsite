@@ -2,8 +2,8 @@
 <div style="position: fixed; top: 0; left: 0; right: 0; background-color: #FFC1C1; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <a href="#home" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Home</a>
-    <a href="#projects" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Projects</a>
     <a href="#education" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Education</a>
+    <a href="#thesis" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Thesis</a>
     <a href="#resume" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Resume</a>
     <a href="#fun-facts" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Fun Facts</a>
     <a href="#contact" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Contact</a>
@@ -207,7 +207,7 @@
 
 ---
 
-<div style="background: linear-gradient(135deg, #FFD7D7, #FFF5E4); padding: 30px; border-radius: 15px; text-align: center; margin-top: 30px;">
+<div id="thesis" style="background: linear-gradient(135deg, #FFD7D7, #FFF5E4); padding: 30px; border-radius: 15px; text-align: center; margin-top: 30px;">
 
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
     Read My Undergraduate Thesis
@@ -234,7 +234,6 @@
   </div>
 
 </div>
-
 ---
 
 <!-- Enhanced Resume Section with Rotating Border and Pulse Hover Effect -->
@@ -305,22 +304,63 @@
 
 ---
 
-<div id="projects" style="padding: 60px; background-color: #FFF5E4;">
-  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4;">
-    Projects
+<!-- Achievements Timeline Section -->
+<div id="timeline" style="padding: 60px; background: linear-gradient(135deg, #FFD7D7, #FFF5E4); border-radius: 15px; text-align: center; margin-top: 30px;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
+    Achievements Timeline
   </h2>
-  <p style="text-align: center;">Here are some of the data science and analytics projects I’ve worked on:</p>
-  <ul style="list-style-type: none; text-align: center;">
-    <li><strong>Project 1</strong>: Description for Project 1</li>
-    <li><strong>Project 2</strong>: Description for Project 2</li>
-    <li><strong>Project 3</strong>: Description for Project 3</li>
-    <li><strong>Project 4</strong>: Description for Project 4</li>
-    <li><strong>Project 5</strong>: Description for Project 5</li>
-  </ul>
+
+  <div style="max-width: 800px; margin: 0 auto; position: relative;">
+
+    <!-- Timeline container -->
+    <div style="position: relative; padding: 10px 40px;">
+      <!-- Vertical Line -->
+      <div style="position: absolute; width: 2px; background-color: #FF69B4; top: 0; bottom: 0; left: 50%; margin-left: -1px;"></div>
+
+      <!-- Timeline Events -->
+      <!-- Event 1 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 0;">
+        <p style="font-size: 18px; text-align: left;"><strong>Fall 2021</strong><br>Entered FAU's Honors College, Majored in Data Analytics, took Honors Introductory Statistics</p>
+      </div>
+      <!-- Event 2 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 55%; text-align: right;">
+        <p style="font-size: 18px;"><strong>Spring 2022</strong><br>Took Honors Intro to Data Science, Intro to Programming in C</p>
+      </div>
+      <!-- Event 3 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 0;">
+        <p style="font-size: 18px; text-align: left;"><strong>Fall 2022</strong><br>Took Honors Discrete Mathematics</p>
+      </div>
+      <!-- Event 4 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 55%; text-align: right;">
+        <p style="font-size: 18px;"><strong>Spring 2023</strong><br>Data Structures and Algorithm Analysis, Honors Calculus-Analytical Geometry, Intro to Internet Computing</p>
+      </div>
+      <!-- Event 5 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 0;">
+        <p style="font-size: 18px; text-align: left;"><strong>Summer 2023</strong><br>Intro to Database Structures, Data Analytics Intern at MRI Software</p>
+      </div>
+      <!-- Event 6 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 55%; text-align: right;">
+        <p style="font-size: 18px;"><strong>Fall 2023</strong><br>People Analytics and Data Intern at FreshRX, Intro to AI, Intro to Data Mining and Machine Learning, started M.S. Data Science</p>
+      </div>
+      <!-- Event 7 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 0;">
+        <p style="font-size: 18px; text-align: left;"><strong>Spring 2024</strong><br>Data Analysis for Managers (masters), submitted thesis, graduated with B.S. in Data Analytics</p>
+      </div>
+      <!-- Event 8 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 55%; text-align: right;">
+        <p style="font-size: 18px;"><strong>Summer 2024</strong><br>Data Analytics Intern at Voloridge, Advanced Business Analytics, AI, Deep Learning (masters)</p>
+      </div>
+      <!-- Event 9 -->
+      <div style="position: relative; background-color: #FFF5E4; border-radius: 6px; padding: 10px; width: 45%; margin-bottom: 30px; left: 0;">
+        <p style="font-size: 18px; text-align: left;"><strong>Fall 2024</strong><br>Working Part-Time as Data Analyst at Voloridge, enrolled in M.S. Data Science, planning to graduate Dec 2024</p>
+      </div>
+
+    </div>
+
+  </div>
 </div>
 
 ---
-
 <div id="fun-facts" style="background: linear-gradient(135deg, #FFE5E5, #FFD7D7); padding: 60px; border-radius: 15px;">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
     Fun Facts About Me
