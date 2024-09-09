@@ -161,6 +161,38 @@
       </div>
     </div>
 
+    <!-- Project Card 9 -->
+    <div class="project-card" id="openModalEnergy">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4; font-size: 16px;">Energy Consumption Prediction</h3>
+        <p style="font-size: 12px;">Predicted energy consumption using linear regression.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 10 -->
+    <div class="project-card" id="openModalFraud">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4; font-size: 16px;">Credit Card Fraud Detection</h3>
+        <p style="font-size: 12px;">Detected fraud using logistic regression.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 11 -->
+    <div class="project-card" id="openModalPenguin">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4; font-size: 16px;">Penguin Data Exploration</h3>
+        <p style="font-size: 12px;">Explored penguin data using R.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 12 -->
+    <div class="project-card" id="openModalDemographic">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4; font-size: 16px;">Demographic Data Analysis</h3>
+        <p style="font-size: 12px;">Analyzed demographic data using R.</p>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -371,6 +403,70 @@
   </div>
 </div>
 
+<!-- Energy Consumption Prediction Modal -->
+<div id="myModalEnergy" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalEnergy">&times;</span>
+    <h2>Energy Consumption Prediction Using Linear Regression</h2>
+    <p><strong>Project Overview:</strong> In this project, I applied linear regression to a dataset containing household energy consumption data. I explored the relationship between various weather-related variables (temperature, humidity, dewpoint) and energy usage.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Regression Analysis: Implemented linear regression, adjusted for multicollinearity, and interpreted the model’s fit and coefficients.</li>
+      <li>Data Wrangling: Handled missing values, created new features (season), and conducted thorough data cleaning.</li>
+      <li>Model Evaluation: Evaluated the model using metrics such as MAE, MSE, RMSE, and R².</li>
+    </ul>
+    <p><a href="assets/documents/Linear Regression and Binary Classification.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- Credit Card Fraud Detection Modal -->
+<div id="myModalFraud" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalFraud">&times;</span>
+    <h2>Credit Card Fraud Detection Using Logistic Regression</h2>
+    <p><strong>Project Overview:</strong> In this project, I built a logistic regression model to classify fraudulent transactions in a highly imbalanced credit card dataset.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Classification with Imbalanced Data: Handled imbalanced data by applying class weights and evaluating metrics beyond accuracy.</li>
+      <li>Model Evaluation: Used metrics such as accuracy, precision, recall, F1-score, and AUC-ROC to assess model performance.</li>
+      <li>Data Scaling and Feature Engineering: Applied scaling to the transaction amount feature.</li>
+    </ul>
+    <p><a href="assets/documents/Linear Regression and Binary Classification.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- Penguin Data Exploration Modal -->
+<div id="myModalPenguin" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalPenguin">&times;</span>
+    <h2>Penguin Data Exploration and Visualization Project</h2>
+    <p><strong>Project Overview:</strong> I analyzed the Palmer Penguins dataset using R and packages from the tidyverse. The goal was to explore patterns in penguin species characteristics, such as bill length, flipper length, and body mass.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Data Wrangling and Exploration: Used tidyverse to clean, summarize, and explore the dataset.</li>
+      <li>Data Visualization: Created various visualizations such as box plots, scatter plots, and bar plots using ggplot2.</li>
+      <li>Statistical Analysis: Calculated and interpreted summary statistics to uncover insights about penguin species differences.</li>
+    </ul>
+    <p><a href="assets/documents/Penguin Data Exploration and Visualization Project using R.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- Demographic Data Analysis Modal -->
+<div id="myModalDemographic" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalDemographic">&times;</span>
+    <h2>Demographic Data Analysis Using R</h2>
+    <p><strong>Project Overview:</strong> I analyzed a demographic dataset using R and packages from the tidyverse. The dataset contained various demographic attributes such as age, credit score, education, occupation, marital status, and more. My goal was to explore how these attributes affect credit scores and uncover trends or patterns that could provide actionable insights.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Data Wrangling and Cleaning: Handled missing data, created new variables, and performed outlier detection and removal.</li>
+      <li>Data Visualization: Created box plots, scatter plots, and bar plots using ggplot2.</li>
+      <li>Descriptive and Aggregative Analysis: Summarized and aggregated data by attributes like education, marital status, and occupation.</li>
+    </ul>
+    <p><a href="assets/documents/Demographic Data Analysis Project using R.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
 <!-- JavaScript to Open and Close Modals -->
 <script>
   const modals = {
@@ -381,7 +477,11 @@
     BL: document.getElementById("myModalBL"),
     TTT: document.getElementById("myModalTTT"),
     CIFAR: document.getElementById("myModalCIFAR"),
-    Sandy: document.getElementById("myModalSandy")
+    Sandy: document.getElementById("myModalSandy"),
+    Energy: document.getElementById("myModalEnergy"),
+    Fraud: document.getElementById("myModalFraud"),
+    Penguin: document.getElementById("myModalPenguin"),
+    Demographic: document.getElementById("myModalDemographic"),
   };
 
   const btns = {
@@ -392,7 +492,11 @@
     BL: document.getElementById("openModalBL"),
     TTT: document.getElementById("openModalTTT"),
     CIFAR: document.getElementById("openModalCIFAR"),
-    Sandy: document.getElementById("openModalSandy")
+    Sandy: document.getElementById("openModalSandy"),
+    Energy: document.getElementById("openModalEnergy"),
+    Fraud: document.getElementById("openModalFraud"),
+    Penguin: document.getElementById("openModalPenguin"),
+    Demographic: document.getElementById("openModalDemographic"),
   };
 
   const spans = {
@@ -403,7 +507,11 @@
     BL: document.getElementById("closeModalBL"),
     TTT: document.getElementById("closeModalTTT"),
     CIFAR: document.getElementById("closeModalCIFAR"),
-    Sandy: document.getElementById("closeModalSandy")
+    Sandy: document.getElementById("closeModalSandy"),
+    Energy: document.getElementById("closeModalEnergy"),
+    Fraud: document.getElementById("closeModalFraud"),
+    Penguin: document.getElementById("closeModalPenguin"),
+    Demographic: document.getElementById("closeModalDemographic"),
   };
 
   for (let key in btns) {
