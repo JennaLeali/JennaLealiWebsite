@@ -1,10 +1,23 @@
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh;">
+<!-- Navigation Bar -->
+<div style="position: fixed; top: 0; left: 0; right: 0; background-color: #6A5ACD; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <a href="#home" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Home</a>
+    <a href="#projects" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Projects</a>
+    <a href="#education" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Education</a>
+    <a href="#resume" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Resume</a>
+    <a href="#fun-facts" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Fun Facts</a>
+    <a href="#contact" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Contact</a>
+  </div>
+</div>
+
+
+
+<div id="home" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh; margin-top: 80px;"> <!-- Added margin-top to account for the fixed nav bar -->
 
   <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
     Jenna Leali 
   </h1>
 
-  <!-- Typing Text Animation -->
   <div class="typing-animation" style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
     <span id="typed-text"></span>
     <span class="cursor">|</span>
@@ -14,8 +27,9 @@
     View project on GitHub
   </a>
 
-  <!-- Image Animation of You with Glowing Effect -->
   <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
+
+  <div style="display: flex; justify-content: center; gap: 20px; margin-top: 50px; width: 80%;">
 
   <!-- Add Hover Effect to Image -->
   <style>
@@ -114,8 +128,7 @@
 </script>
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #FFB6C1, #FF69B4); padding: 40px; border-radius: 15px;">
-
+<div id="contact" style="padding: 60px; background: linear-gradient(135deg, #FFB6C1, #FF69B4);">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
     Contact Information
   </h2>
@@ -149,11 +162,8 @@
 
 ---
 
-<div style="background: linear-gradient(135deg, #ADD8E6, #B0E0E6); padding: 40px; border-radius: 15px; text-align: center; margin-bottom: 40px;">
-  
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF; font-size: 45px; margin-bottom: 30px;">
-    Education
-  </h2>
+<div id="education" style="padding: 60px; background: linear-gradient(135deg, #ADD8E6, #87CEFA);">
+  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF;">Education</h2>
   
   <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     
@@ -216,8 +226,7 @@
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #E6E6FA; padding: 40px;">
-
+<div id="resume" style="padding: 60px; background-color: #E6E6FA;">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #6A5ACD; font-size: 45px; text-align: center;">
     Resume
   </h2>
@@ -242,20 +251,26 @@
 
 ---
 
-## Projects
-Here are some of the data science and analytics projects I've worked on:
-
-1. **Project 1**: Description for Project 1
-2. **Project 2**: Description for Project 2
-3. **Project 3**: Description for Project 3
-4. **Project 4**: Description for Project 4
-5. **Project 5**: Description for Project 5
+<div id="projects" style="padding: 60px; background-color: #F0F8FF;">
+  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF;">
+    Projects
+  </h2>
+  <p style="text-align: center;">Here are some of the data science and analytics projects I’ve worked on:</p>
+  <ul style="list-style-type: none; text-align: center;">
+    <li><strong>Project 1</strong>: Description for Project 1</li>
+    <li><strong>Project 2</strong>: Description for Project 2</li>
+    <li><strong>Project 3</strong>: Description for Project 3</li>
+    <li><strong>Project 4</strong>: Description for Project 4</li>
+    <li><strong>Project 5</strong>: Description for Project 5</li>
+  </ul>
+</div>
 
 ---
 
-<h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FFFFFF; font-size: 50px; text-align: center; margin-bottom: 40px; background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 20px; border-radius: 15px;">
-  Fun Facts About Me
-</h2>
+<div id="fun-facts" style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 60px; border-radius: 15px;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
+    Fun Facts About Me
+  </h2>
 
 <div style="background: linear-gradient(135deg, #FFB6C1, #FFD700); padding: 40px; border-radius: 15px; text-align: center;">
 
