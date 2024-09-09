@@ -1,9 +1,9 @@
 <!-- Navigation Bar -->
-<div style="position: fixed; top: 0; left: 0; right: 0; background-color: #FFC1C1; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
+<div style="position: fixed; top: 0; left: 0; right: 0; background-color: #FFB6C1; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <a href="#home" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Home</a>
     <a href="#education" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Education</a>
-    <a href="#thesis" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Thesis</a>
+    <a href="#timeline" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Timeline</a>
     <a href="#resume" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Resume</a>
     <a href="#fun-facts" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Fun Facts</a>
     <a href="#contact" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Contact</a>
