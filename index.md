@@ -111,6 +111,24 @@
 </script>
 ---
 
+<div id="projects" style="padding: 60px; background: linear-gradient(135deg, #FFD7D7, #FFF5E4); border-radius: 15px; text-align: center;">
+  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
+    Projects
+  </h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <!-- Project 1 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Neural Network Classifier</h3>
+      <a href="projects/neural-network-classifier.html" style="font-size: 16px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Project</a>
+    </div>
+
+    <!-- Add additional project cards below -->
+  </div>
+</div>
+
+---
+
 <!-- Contact Section with Animated Icons and Subtle Background Animation -->
 <div id="contact" style="padding: 60px; background: linear-gradient(135deg, #FFF5E4, #FFB6C1); border-radius: 15px; background-size: 400% 400%; animation: gradientAnimation 5s ease infinite;">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center; margin-bottom: 40px;">
