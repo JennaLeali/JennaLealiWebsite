@@ -304,129 +304,134 @@
 
 ---
 
-<!-- Horizontal Achievements Timeline Section -->
+<!-- Horizontal Sliding Achievements Timeline Section -->
 <div id="timeline" style="padding: 60px; background: linear-gradient(135deg, #FFD7D7, #FFF5E4); border-radius: 15px; text-align: center; margin-top: 30px;">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
     Achievements Timeline
   </h2>
 
-  <div class="timeline-container" style="max-width: 1000px; margin: 0 auto; position: relative;">
+  <!-- Slider Container -->
+  <div id="slider-container" style="position: relative; max-width: 1000px; margin: 0 auto;">
+    <!-- Slider -->
+    <input type="range" id="timeline-slider" min="0" max="7" step="1" value="0" style="width: 100%;">
 
-    <!-- Timeline marker -->
-    <div class="timeline-line" style="position: absolute; top: 50%; left: 0; right: 0; height: 2px; background-color: #FF69B4;"></div>
-
-    <!-- Timeline Item: Fall 2021 (Top) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(-10deg);">
-      <div style="position: absolute; top: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Entered FAU's Honors College, Majored in Data Analytics, took Honors Introductory Statistics</p>
+    <!-- Timeline Dates -->
+    <div id="timeline-items" style="display: flex; justify-content: space-between; position: relative; margin-top: 20px;">
+      <!-- Each timeline item -->
+      <div class="timeline-item" data-index="0" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2021</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Entered FAU's Honors College, Majored in Data Analytics, took Honors Introductory Statistics</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Fall 2021</p>
-    </div>
 
-    <!-- Timeline Item: Spring 2022 (Bottom) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(10deg);">
-      <div style="position: absolute; bottom: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Took Honors Intro to Data Science, Intro to Programming in C</p>
+      <div class="timeline-item" data-index="1" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2022</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Took Honors Intro to Data Science, Intro to Programming in C</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Spring 2022</p>
-    </div>
 
-    <!-- Timeline Item: Fall 2022 (Top) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(-10deg);">
-      <div style="position: absolute; top: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Took Honors Discrete Mathematics</p>
+      <div class="timeline-item" data-index="2" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2022</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Took Honors Discrete Mathematics</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Fall 2022</p>
-    </div>
 
-    <!-- Timeline Item: Spring 2023 (Bottom) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(10deg);">
-      <div style="position: absolute; bottom: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Data Struct/Algorithm Analysis, Honors Calculus-Analyt Geom, Intro to Internet Computing</p>
+      <div class="timeline-item" data-index="3" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2023</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Data Struct/Algorithm Analysis, Honors Calculus-Analyt Geom, Intro to Internet Computing</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Spring 2023</p>
-    </div>
 
-    <!-- Timeline Item: Summer 2023 (Top) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(-10deg);">
-      <div style="position: absolute; top: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Intro to Database Structures, Data Analytics Intern at MRI Software</p>
+      <div class="timeline-item" data-index="4" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2023</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Intro to Database Structures, Data Analytics Intern at MRI Software</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Summer 2023</p>
-    </div>
 
-    <!-- Timeline Item: Fall 2023 (Bottom) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(10deg);">
-      <div style="position: absolute; bottom: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">People Analytics and Data Intern at FreshRX, Intro Artificial Intelligence, Intro Data Mining Mach Learnng, started M.S.</p>
+      <div class="timeline-item" data-index="5" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2023</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">People Analytics and Data Intern at FreshRX, Intro Artificial Intelligence, Intro Data Mining Mach Learnng, started M.S.</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Fall 2023</p>
-    </div>
 
-    <!-- Timeline Item: Spring 2024 (Top) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(-10deg);">
-      <div style="position: absolute; top: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Data Analysis for Managers (masters), Intro Bus Analytics Big Data (masters), Intro to Deep Learning, Software Engineering, graduated with B.S.</p>
+      <div class="timeline-item" data-index="6" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2024</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Data Analysis for Managers (masters), Intro Bus Analytics Big Data (masters), Intro to Deep Learning, Software Engineering, graduated with B.S.</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Spring 2024</p>
-    </div>
 
-    <!-- Timeline Item: Summer 2024 (Bottom) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(10deg);">
-      <div style="position: absolute; bottom: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Data Analytics Intern at Voloridge, Advanced Business Analytics, AI, Deep Learning (masters)</p>
+      <div class="timeline-item" data-index="7" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2024</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Data Analytics Intern at Voloridge, Advanced Business Analytics, AI, Deep Learning (masters)</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Summer 2024</p>
-    </div>
 
-    <!-- Timeline Item: Fall 2024 (Top) -->
-    <div class="timeline-item" style="position: relative; text-align: center; width: 100px; transform: rotate(-10deg);">
-      <div style="position: absolute; top: -80px; width: 200px; left: 50%; transform: translateX(-50%); background-color: #FFF5E4; border-radius: 6px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="font-size: 14px; color: #000;">Working Part-Time (25 hours) as Data Analyst at Voloridge, enrolled in M.S. Data Science, planning to graduate Dec 2024</p>
+      <div class="timeline-item" data-index="8" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2024</p>
+        <div class="timeline-content" style="display: none;">
+          <p style="font-size: 16px; color: #000;">Working Part-Time (25 hours) as Data Analyst at Voloridge, enrolled in M.S. Data Science, planning to graduate Dec 2024</p>
+        </div>
       </div>
-      <p style="font-size: 18px; font-weight: bold; color: #FF69B4;">Fall 2024</p>
     </div>
-
   </div>
 </div>
 
-<!-- CSS for the Timeline and Text Rotation -->
+<!-- CSS for the Timeline -->
 <style>
-  /* Timeline line */
-  .timeline-line {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #FF69B4;
-  }
-
-  /* Timeline items alternation (top and bottom) with rotation */
   .timeline-item {
-    position: relative;
+    flex: 1;
     text-align: center;
-    width: 100px;
+    cursor: pointer;
   }
 
-  /* Styling for the rotating text */
-  .timeline-item p {
-    transform: rotate(-10deg);
+  .timeline-term {
+    transition: font-size 0.3s ease, transform 0.3s ease;
   }
 
-  .timeline-item:nth-child(even) p {
-    transform: rotate(10deg);
+  /* Style when a timeline item is active */
+  .timeline-item.active .timeline-term {
+    font-size: 24px;
+    color: #FF69B4;
+    transform: none;
   }
 
-  /* Alternating positions */
-  .timeline-item:nth-child(odd) .timeline-content {
-    top: -80px;
+  .timeline-content {
+    display: none;
   }
 
-  .timeline-item:nth-child(even) .timeline-content {
-    bottom: -80px;
+  .timeline-item.active .timeline-content {
+    display: block;
   }
 </style>
+
+<!-- JavaScript for Slider Functionality -->
+<script>
+  const timelineItems = document.querySelectorAll(".timeline-item");
+  const timelineSlider = document.getElementById("timeline-slider");
+
+  timelineSlider.addEventListener("input", function() {
+    const index = parseInt(this.value);
+
+    timelineItems.forEach((item, i) => {
+      if (i === index) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  });
+
+  // Initialize the first timeline item as active
+  timelineItems[0].classList.add("active");
+</script>
 
 ---
 <div id="fun-facts" style="background: linear-gradient(135deg, #FFE5E5, #FFD7D7); padding: 60px; border-radius: 15px;">
