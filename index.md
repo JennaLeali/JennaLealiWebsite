@@ -125,11 +125,16 @@
         Neural Network Classifier with Gradient Descent Learning
       </a>
     </li>
+    <li>
+      <a href="#" id="openModalHF" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
+        Heart Failure Risk Prediction Using Machine Learning
+      </a>
+    </li>
     <!-- Add more projects here -->
   </ul>
 
-  <!-- Modal -->
-  <div id="myModalNN" class="modal">
+  <!-- Modal for Neural Network Classifier -->
+  <div id="myModalNN" class="modal" style="display: none;">
     <div class="modal-content">
       <span class="close" id="closeModalNN">&times;</span>
       <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Neural Network Classifier with Gradient Descent Learning</h2>
@@ -140,7 +145,23 @@
         <li>Data Visualization: Visualized the classifier line, learning curves, and data points to interpret machine learning outcomes.</li>
         <li>Python Programming: Used Python libraries like numpy and matplotlib to create custom classes and methods.</li>
       </ul>
-      <p><a href="assets/documents/Neural%20Network%20Classifier%20with%20Gradient%20Descent%20Learning-Colab.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+      <p><a href="assets/documents/Neural-Network-Classifier-with-Gradient-Descent-Learning-Colab.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    </div>
+  </div>
+
+  <!-- Modal for Heart Failure Risk Prediction -->
+  <div id="myModalHF" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close" id="closeModalHF">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Heart Failure Risk Prediction Using Machine Learning</h2>
+      <p><strong>Project Overview:</strong> In this project, I explored clustering techniques (K-Means, Kernel K-Means, and Expectation Maximization), regression analysis (Linear Regression and Ridge Regression), and classification methods (Naive Bayes and K-Nearest Neighbors) to predict a patient’s risk of a heart-related death event.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Clustering Analysis: Used K-Means, Kernel K-Means, and Expectation Maximization to analyze and compare different unsupervised learning techniques.</li>
+        <li>Regression and Classification: Implemented Linear and Ridge Regression, Naive Bayes, and KNN, showcasing my expertise in predictive modeling.</li>
+        <li>Model Comparison and Evaluation: Compared models, performed chi-square tests, and analyzed clinical significance of clusters, demonstrating critical thinking.</li>
+      </ul>
+      <p><a href="assets/documents/Heart-Failure-Risk-Prediction-Using-Machine-Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
     </div>
   </div>
 </div>
@@ -149,25 +170,23 @@
 <style>
   .modal {
     display: none; /* Hidden by default */
-    position: fixed;
-    z-index: 1;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
     background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
   }
 
   .modal-content {
     background-color: white;
-    margin: auto; /* Centered */
+    margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 80%; /* Could be more or less, depending on screen size */
     max-width: 600px;
-    position: relative;
-    top: 50%; /* Move it down */
-    transform: translateY(-50%); /* Adjust the position to be centered vertically */
+    border-radius: 10px;
   }
 
   .close {
@@ -175,7 +194,6 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
-    cursor: pointer;
   }
 
   .close:hover,
@@ -188,21 +206,41 @@
 
 <!-- JavaScript for Modal -->
 <script>
+  // Get the modals
   var modalNN = document.getElementById("myModalNN");
-  var btnNN = document.getElementById("openModalNN");
-  var spanNN = document.getElementById("closeModalNN");
+  var modalHF = document.getElementById("myModalHF");
 
+  // Get the buttons that open the modals
+  var btnNN = document.getElementById("openModalNN");
+  var btnHF = document.getElementById("openModalHF");
+
+  // Get the <span> elements that close the modals
+  var spanNN = document.getElementById("closeModalNN");
+  var spanHF = document.getElementById("closeModalHF");
+
+  // When the user clicks the buttons, open the corresponding modal 
   btnNN.onclick = function() {
     modalNN.style.display = "block";
   }
+  btnHF.onclick = function() {
+    modalHF.style.display = "block";
+  }
 
+  // When the user clicks on <span> (x), close the modals
   spanNN.onclick = function() {
     modalNN.style.display = "none";
   }
+  spanHF.onclick = function() {
+    modalHF.style.display = "none";
+  }
 
+  // When the user clicks anywhere outside of the modals, close them
   window.onclick = function(event) {
     if (event.target == modalNN) {
       modalNN.style.display = "none";
+    }
+    if (event.target == modalHF) {
+      modalHF.style.display = "none";
     }
   }
 </script>
