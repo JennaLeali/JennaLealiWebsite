@@ -23,7 +23,7 @@
       transform: scale(1.2);
       box-shadow: 0 0 30px #FF69B4;
     }
-    
+
     /* Typing text animation */
     .typing-animation #typed-text {
       font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -84,7 +84,14 @@
       <p>Natural language processing for sentiment analysis.</p>
     </div>
   </div>
-  
+
+  <!-- Add Hover Effect to Project Cards -->
+  <style>
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </div>
 
 <!-- JavaScript for Typing Effect -->
