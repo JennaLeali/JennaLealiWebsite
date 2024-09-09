@@ -323,7 +323,7 @@
         <div class="timeline-content" style="display: none;">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Honors Introductory Statistics<br>
-            <strong>Experience:</strong> Entered FAU's Honors College, Majored in Data Analytics
+            <strong>Experience:</strong> Entered FAU's Harriet L. Wilkes Honors College, Majored in Data Analytics
           </p>
         </div>
       </div>
@@ -370,7 +370,7 @@
         <div class="timeline-content" style="display: none;">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Intro to Artificial Intelligence, Intro Data Mining/Machine Learning, Intro to Data Science (M.S.)<br>
-            <strong>Experience:</strong> People Analytics and Data Intern at FreshRX, Began thesis work for M.S.
+            <strong>Experience:</strong> People Analytics and Data Intern at FreshRX, Began thesis work, Began concurrent enrollment for M.S. in Data Science and Analytics.
           </p>
         </div>
       </div>
@@ -389,7 +389,7 @@
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2024</p>
         <div class="timeline-content" style="display: none;">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
-            <strong>Relevant Coursework:</strong> Advanced Business Analytics, AI, Deep Learning (M.S.)<br>
+            <strong>Relevant Coursework:</strong> Advanced Business Analytics, Artificial Intelligence, Deep Learning (M.S.)<br>
             <strong>Experience:</strong> Data Analytics Intern at Voloridge
           </p>
         </div>
@@ -400,7 +400,7 @@
         <div class="timeline-content" style="display: none;">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Data Mining & Machine Learning, Information Retrieval, Intro to Neural Networks, Natural Language Processing (M.S.)<br>
-            <strong>Experience:</strong> Part-Time Data Analyst at Voloridge, Planning to graduate with M.S. in Dec 2024
+            <strong>Experience:</strong> Part-Time Data Analyst at Voloridge (25 hrs/week), Planning to graduate with M.S. in Dec 2024
           </p>
         </div>
       </div>
@@ -408,6 +408,60 @@
   </div>
 
 </div>
+
+<!-- Custom-styled slider -->
+<style>
+  /* Style the track */
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(135deg, #FF69B4, #FFD7D7);
+    border-radius: 10px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  /* Change slider thumb on hover */
+  input[type="range"]:hover {
+    opacity: 1;
+  }
+
+  /* Style the slider thumb (handle) */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #FF69B4;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect on the slider thumb */
+  input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.8);
+  }
+
+  /* For Firefox and others */
+  input[type="range"]::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #FF69B4;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  input[type="range"]::-moz-range-thumb:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.8);
+  }
 
 <!-- Updated CSS for the Timeline and Slider -->
 <style>
@@ -444,20 +498,16 @@
     const index = parseInt(this.value);
 
     timelineItems.forEach((item, i) => {
-      const content = item.querySelector(".timeline-content");
       if (i === index) {
         item.classList.add("active");
-        content.style.display = "block";
       } else {
         item.classList.remove("active");
-        content.style.display = "none";
       }
     });
   });
 
   // Initialize the first timeline item as active
   timelineItems[0].classList.add("active");
-  timelineItems[0].querySelector(".timeline-content").style.display = "block";
 </script>
 
 ---
