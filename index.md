@@ -300,7 +300,7 @@
   <div class="modal-content">
     <span class="close" id="closeModalTB">&times;</span>
     <h2>Threshold-Based Binary Classification with Visualization</h2>
-    <p><strong>Project Overview:</strong> Worked on a two-class classification problem using threshold values for the attributes x and y to distinguish between two classes (C1 and C2).</p>
+    <p><strong>Project Overview:</strong> I worked on a two-class classification problem using threshold values for the attributes x and y to distinguish between two classes (C1 and C2).</p>
     <p><strong>Key Skills Highlighted:</strong></p>
     <ul>
       <li>Classification & Decision Boundary Visualization.</li>
@@ -329,31 +329,39 @@
 
 <!-- JavaScript to Open and Close Modals -->
 <script>
-  // Get modal elements
   const modals = {
     NN: document.getElementById("myModalNN"),
     HF: document.getElementById("myModalHF"),
     TB: document.getElementById("myModalTB"),
     HD: document.getElementById("myModalHD"),
+    BL: document.getElementById("myModalBL"),
+    TTT: document.getElementById("myModalTTT"),
+    CIFAR: document.getElementById("myModalCIFAR"),
+    Sandy: document.getElementById("myModalSandy")
   };
 
-  // Get buttons (now project cards) that open the modals
   const btns = {
     NN: document.getElementById("openModalNN"),
     HF: document.getElementById("openModalHF"),
     TB: document.getElementById("openModalTB"),
     HD: document.getElementById("openModalHD"),
+    BL: document.getElementById("openModalBL"),
+    TTT: document.getElementById("openModalTTT"),
+    CIFAR: document.getElementById("openModalCIFAR"),
+    Sandy: document.getElementById("openModalSandy")
   };
 
-  // Get close elements for the modals
   const spans = {
     NN: document.getElementById("closeModalNN"),
     HF: document.getElementById("closeModalHF"),
     TB: document.getElementById("closeModalTB"),
     HD: document.getElementById("closeModalHD"),
+    BL: document.getElementById("closeModalBL"),
+    TTT: document.getElementById("closeModalTTT"),
+    CIFAR: document.getElementById("closeModalCIFAR"),
+    Sandy: document.getElementById("closeModalSandy")
   };
 
-  // Event listeners to open modals
   Object.keys(btns).forEach(key => {
     btns[key].onclick = function(event) {
       event.preventDefault();
@@ -361,14 +369,12 @@
     };
   });
 
-  // Event listeners to close modals
   Object.keys(spans).forEach(key => {
     spans[key].onclick = function() {
       modals[key].style.display = "none";
     };
   });
 
-  // Close modal when clicking outside the modal content
   window.onclick = function(event) {
     Object.keys(modals).forEach(key => {
       if (event.target == modals[key]) {
