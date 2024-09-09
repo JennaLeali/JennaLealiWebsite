@@ -239,57 +239,39 @@
 
 ---
 
-<!-- Enhanced Resume Section with Advanced Effects -->
+<!-- Enhanced Resume Section with Rotating Border and Pulse Hover Effect -->
 <div id="resume" style="padding: 60px; background: linear-gradient(135deg, #6A5ACD, #1E90FF); border-radius: 15px; position: relative; overflow: hidden;">
   <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 45px; text-align: center; margin-bottom: 40px;">
     Resume
   </h2>
 
-  <!-- Animated Background Elements -->
-  <div class="floating-shapes" style="position: absolute; top: -100px; left: -100px; background-color: #FF69B4; width: 200px; height: 200px; border-radius: 50%; filter: blur(120px); animation: float 10s ease-in-out infinite;"></div>
-  <div class="floating-shapes" style="position: absolute; bottom: -100px; right: -100px; background-color: #FFD700; width: 200px; height: 200px; border-radius: 50%; filter: blur(120px); animation: float 15s ease-in-out infinite reverse;"></div>
-
   <!-- Centering Content -->
   <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; max-width: 80%; margin: 0 auto; position: relative; z-index: 1;">
     
-    <!-- Resume link with 3D Button Effect -->
-    <div style="margin-bottom: 30px;">
-      <a href="resume.pdf" target="_blank" style="font-size: 22px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;">
-        Click here to view my resume
-      </a>
-    </div>
-
-    <!-- Resume image with Glow and Hover Effects -->
-    <div>
+    <!-- Resume image link with Glow, Pulse, and Rotating Border Effects -->
+    <a href="resume.pdf" target="_blank" style="position: relative; display: inline-block;">
+      <!-- Rotating border container -->
+      <div class="rotate-border" style="position: absolute; top: -15px; left: -15px; width: calc(100% + 30px); height: calc(100% + 30px); border: 4px solid #FF69B4; border-radius: 15px; box-shadow: 0 0 15px rgba(255, 105, 180, 0.6); animation: rotate 5s linear infinite;"></div>
+      <!-- Image -->
       <img src="assets/images/resume.png" alt="Resume Image" style="max-width: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-    </div>
+    </a>
   
   </div>
 
-  <!-- Hover Effects and Background Animations -->
+  <!-- Hover Effects, Rotating Border, and Pulse Animation -->
   <style>
-    /* Floating glowing shapes */
-    @keyframes float {
+    /* Rotating border around the image */
+    @keyframes rotate {
       0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(20px);
+        transform: rotate(0deg);
       }
       100% {
-        transform: translateY(0);
+        transform: rotate(360deg);
       }
-    }
-
-    /* Button hover effect */
-    a:hover {
-      background-color: #FFB6C1; /* Light pink on hover */
-      transform: scale(1.05); /* Slight scaling effect */
-      box-shadow: 0 8px 16px rgba(255, 105, 180, 0.4); /* 3D button shadow effect */
     }
 
     /* Resume image hover effect */
-    img:hover {
+    a img:hover {
       transform: scale(1.1); /* Slight scaling effect */
       box-shadow: 0 8px 16px rgba(255, 105, 180, 0.4); /* Pink glow shadow on hover */
     }
@@ -304,6 +286,20 @@
       }
       100% {
         background-position: 0% 50%;
+      }
+    }
+
+    /* Pulse animation on hover */
+    a:hover .rotate-border {
+      animation: pulse 2s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from {
+        box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+      }
+      to {
+        box-shadow: 0 0 30px rgba(255, 105, 180, 1);
       }
     }
   </style>
