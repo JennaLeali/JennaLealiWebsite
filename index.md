@@ -111,190 +111,121 @@
 </script>
 ---
 
-<!-- Projects Section with Modal -->
+<!-- Projects Section with Cards and Modal -->
 <div id="projects" style="padding: 60px; background-color: #F0F8FF;">
   <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF;">
     Projects
   </h2>
-  <p style="text-align: center;">Click on a project to learn more.</p>
+  <p style="text-align: center; margin-bottom: 40px;">Click on a project to learn more.</p>
 
-  <!-- Project List -->
-  <ul style="list-style-type: none; text-align: center;">
-    <li>
-      <a href="#" id="openModalNN" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Neural Network Classifier with Gradient Descent Learning
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalHF" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Heart Failure Risk Prediction Using Machine Learning
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalTB" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Threshold-Based Binary Classification with Visualization
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalHD" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Handwritten Digit Recognition with Feature Engineering and Thresholding
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalBL" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Boolean Logic Operations and Visualization in Python
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalTTT" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Building an AI-Powered Tic-Tac-Toe Game in Python
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalCIFAR" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        CIFAR-10 Image Classification Using Convolutional Neural Networks
-      </a>
-    </li>
-    <li>
-      <a href="#" id="openModalSandy" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
-        Analyzing the Impact of Hurricane Sandy on NYC 311 Service Requests
-      </a>
-    </li>
-  </ul>
+  <!-- Project Cards Container -->
+  <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto;">
 
-  <!-- Modals for Projects -->
-  <!-- Modal for Neural Network Classifier -->
-  <div id="myModalNN" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalNN">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Neural Network Classifier with Gradient Descent Learning</h2>
-      <p><strong>Project Overview:</strong> I implemented a single-layer neural network with gradient descent learning, covering forward propagation, sigmoid activation, and training on real data.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Machine Learning: Built a neural network from scratch using gradient descent.</li>
-        <li>Data Visualization: Visualized classifier lines, learning curves, and data points.</li>
-        <li>Python Programming: Used numpy and matplotlib to create custom classes and methods.</li>
-      </ul>
-      <p><a href="assets/documents/Neural Network Classifier with Gradient Descent Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Neural Network Classifier -->
+    <div class="project-card" id="openModalNN">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Neural Network Classifier</h3>
+        <p>Implemented a neural network with gradient descent learning.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for Heart Failure Risk Prediction -->
-  <div id="myModalHF" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalHF">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Heart Failure Risk Prediction Using Machine Learning</h2>
-      <p><strong>Project Overview:</strong> Explored clustering, regression, and classification techniques to predict heart failure risk.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Clustering Analysis: Used K-Means, Kernel K-Means, and Expectation Maximization.</li>
-        <li>Regression and Classification: Implemented Linear/Ridge Regression, Naive Bayes, and KNN.</li>
-        <li>Model Comparison and Evaluation: Compared models and performed chi-square tests.</li>
-      </ul>
-      <p><a href="assets/documents/Heart Failure Risk Prediction Using Machine Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Heart Failure Risk Prediction -->
+    <div class="project-card" id="openModalHF">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Heart Failure Risk Prediction</h3>
+        <p>Predicting heart failure risk using machine learning techniques.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for Threshold-Based Binary Classification -->
-  <div id="myModalTB" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalTB">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Threshold-Based Binary Classification with Visualization</h2>
-      <p><strong>Project Overview:</strong> Solved a two-class classification problem using threshold values for attributes x and y to distinguish between two classes.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Classification & Decision Boundary Visualization.</li>
-        <li>Data Visualization: Created scatter plots for class separation.</li>
-        <li>User Interaction & Error Handling.</li>
-      </ul>
-      <p><a href="assets/documents/Threshold-Based Binary Classification with Visualization.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Threshold-Based Binary Classification -->
+    <div class="project-card" id="openModalTB">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Binary Classification with Visualization</h3>
+        <p>Classified data using threshold-based rules and visualized results.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for Handwritten Digit Recognition -->
-  <div id="myModalHD" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalHD">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Handwritten Digit Recognition with Feature Engineering</h2>
-      <p><strong>Project Overview:</strong> Loaded the MNIST dataset, split it, and used the average pixel values of a central 4x4 grid to classify digits 0 and 8.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Data Handling and Splitting.</li>
-        <li>Feature Extraction: Average pixel values from central grid.</li>
-        <li>Threshold-Based Classification.</li>
-      </ul>
-      <p><a href="assets/documents/Handwritten Digit Recognition with Feature Engineering and Thresholding.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Handwritten Digit Recognition -->
+    <div class="project-card" id="openModalHD">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Handwritten Digit Recognition</h3>
+        <p>Used feature engineering and thresholding to classify digits.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for Boolean Logic Operations -->
-  <div id="myModalBL" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalBL">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Boolean Logic Operations and Visualization in Python</h2>
-      <p><strong>Project Overview:</strong> Performed AND, OR, and XOR Boolean operations on four input data points using Python.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Logical Operations: AND, OR, and XOR.</li>
-        <li>Data Visualization: Plotted data points with matplotlib.</li>
-        <li>Iteration and Function Design.</li>
-      </ul>
-      <p><a href="assets/documents/Boolean Logic Operations and Visualization in Python.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Boolean Logic Operations -->
+    <div class="project-card" id="openModalBL">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Boolean Logic Operations</h3>
+        <p>Performed Boolean operations on input data using Python.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for Building Tic-Tac-Toe Game -->
-  <div id="myModalTTT" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalTTT">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Building an AI-Powered Tic-Tac-Toe Game in Python</h2>
-      <p><strong>Project Overview:</strong> Created a Tic-Tac-Toe game where the player competes against a Minimax AI-powered computer.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Game Development: Logic for Tic-Tac-Toe game.</li>
-        <li>AI and Search Algorithms: Implemented Minimax algorithm.</li>
-        <li>Input Validation and Error Handling.</li>
-      </ul>
-      <p><a href="assets/documents/Building an AI-Powered Tic-Tac-Toe Game in Python.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Tic-Tac-Toe Game -->
+    <div class="project-card" id="openModalTTT">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">AI-Powered Tic-Tac-Toe Game</h3>
+        <p>Developed a Tic-Tac-Toe game using the Minimax algorithm.</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for CIFAR-10 Image Classification -->
-  <div id="myModalCIFAR" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalCIFAR">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">CIFAR-10 Image Classification Using Convolutional Neural Networks</h2>
-      <p><strong>Project Overview:</strong> Built CNN architectures to classify images from the CIFAR-10 dataset into 10 categories.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Deep Learning: Used CNNs, convolutional layers, pooling layers.</li>
-        <li>Model Optimization: Implemented data augmentation and batch normalization.</li>
-        <li>Evaluation and Plotting.</li>
-      </ul>
-      <p><a href="assets/documents/CIFAR-10 Image Classification Using Convolutional Neural Networks.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: CIFAR-10 Image Classification -->
+    <div class="project-card" id="openModalCIFAR">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">CIFAR-10 Image Classification</h3>
+        <p>Classified images using convolutional neural networks (CNNs).</p>
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for Analyzing Impact of Hurricane Sandy -->
-  <div id="myModalSandy" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalSandy">&times;</span>
-      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Analyzing the Impact of Hurricane Sandy on NYC 311 Service Requests</h2>
-      <p><strong>Project Overview:</strong> Analyzed NYC 311 dataset to assess how service requests changed before, during, and after Hurricane Sandy.</p>
-      <p><strong>Key Skills Highlighted:</strong></p>
-      <ul>
-        <li>Data Wrangling: Cleaned large datasets.</li>
-        <li>Data Visualization: Created visualizations to display trends and comparisons.</li>
-        <li>Comparative Analysis.</li>
-      </ul>
-      <p><a href="assets/documents/Analyzing the Impact of Hurricane Sandy on NYC 311 Service Requests.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+    <!-- Project Card: Hurricane Sandy Analysis -->
+    <div class="project-card" id="openModalSandy">
+      <div class="project-card-content">
+        <h3 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Hurricane Sandy Analysis</h3>
+        <p>Analyzed NYC 311 service requests during Hurricane Sandy.</p>
+      </div>
     </div>
-  </div>
 
+  </div>
 </div>
 
-<!-- CSS for Modal -->
+<!-- CSS for Project Cards and Modal Styling -->
 <style>
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .project-card-content {
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .project-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .project-card p {
+    font-size: 16px;
+  }
+
+  /* Modal Styling */
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -308,11 +239,12 @@
 
   .modal-content {
     background-color: white;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
     padding: 20px;
-    border-radius: 10px;
-    width: 80%; /* Could be more or less, depending on screen size */
+    border: 1px solid #888;
+    width: 80%;
     max-width: 600px;
+    border-radius: 10px;
   }
 
   .close {
@@ -330,7 +262,72 @@
   }
 </style>
 
-<!-- JavaScript for Modal -->
+<!-- Modal Contents -->
+<!-- Neural Network Classifier Modal -->
+<div id="myModalNN" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalNN">&times;</span>
+    <h2>Neural Network Classifier with Gradient Descent Learning</h2>
+    <p><strong>Project Overview:</strong> In this project, I implemented a single-layer neural network with gradient descent learning. The project covers important machine learning concepts, such as forward propagation, sigmoid activation, and training using real data.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Machine Learning: Built a neural network from scratch, trained it using gradient descent, experimented with learning rates.</li>
+      <li>Data Visualization: Visualized the classifier line, learning curves, and data points to interpret machine learning outcomes.</li>
+      <li>Python Programming: Used Python libraries like numpy and matplotlib to create custom classes and methods.</li>
+    </ul>
+    <p><a href="assets/documents/Neural Network Classifier with Gradient Descent Learning.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- Heart Failure Risk Prediction Modal -->
+<div id="myModalHF" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalHF">&times;</span>
+    <h2>Heart Failure Risk Prediction Using Machine Learning</h2>
+    <p><strong>Project Overview:</strong> In this project, I explored clustering techniques (K-Means, Kernel K-Means, and Expectation Maximization), regression analysis (Linear Regression and Ridge Regression), and classification methods (Naive Bayes and K-Nearest Neighbors) to predict a patient’s risk of a heart-related death event.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Clustering Analysis: K-Means, Kernel K-Means, and Expectation Maximization.</li>
+      <li>Regression and Classification: Linear and Ridge Regression, Naive Bayes, KNN.</li>
+      <li>Model Comparison and Evaluation: Comparison of different models, chi-square tests.</li>
+    </ul>
+    <p><a href="assets/documents/Heart Failure Risk Prediction Using Machine Learning.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- Threshold-Based Binary Classification Modal -->
+<div id="myModalTB" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalTB">&times;</span>
+    <h2>Threshold-Based Binary Classification with Visualization</h2>
+    <p><strong>Project Overview:</strong> Worked on a two-class classification problem using threshold values for the attributes x and y to distinguish between two classes (C1 and C2).</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Classification & Decision Boundary Visualization.</li>
+      <li>Data Visualization: Created scatter plots and decision boundary.</li>
+      <li>User Interaction & Error Handling.</li>
+    </ul>
+    <p><a href="assets/documents/Threshold-Based Binary Classification with Visualization.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- Handwritten Digit Recognition Modal -->
+<div id="myModalHD" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalHD">&times;</span>
+    <h2>Handwritten Digit Recognition with Feature Engineering</h2>
+    <p><strong>Project Overview:</strong> Focused on feature extraction from the MNIST dataset and used thresholds to classify digits 0 and 8.</p>
+    <p><strong>Key Skills Highlighted:</strong></p>
+    <ul>
+      <li>Data Handling and Splitting: Handled the MNIST dataset.</li>
+      <li>Feature Extraction: Calculated pixel averages for the central grid of each image.</li>
+      <li>Threshold-Based Classification: Applied thresholds for classification.</li>
+    </ul>
+    <p><a href="assets/documents/Handwritten Digit Recognition with Feature Engineering and Thresholding.pdf" target="_blank">View Project PDF</a></p>
+  </div>
+</div>
+
+<!-- JavaScript to Open and Close Modals -->
 <script>
   // Get modal elements
   const modals = {
@@ -338,22 +335,14 @@
     HF: document.getElementById("myModalHF"),
     TB: document.getElementById("myModalTB"),
     HD: document.getElementById("myModalHD"),
-    BL: document.getElementById("myModalBL"),
-    TTT: document.getElementById("myModalTTT"),
-    CIFAR: document.getElementById("myModalCIFAR"),
-    Sandy: document.getElementById("myModalSandy")
   };
 
-  // Get buttons that open the modals
+  // Get buttons (now project cards) that open the modals
   const btns = {
     NN: document.getElementById("openModalNN"),
     HF: document.getElementById("openModalHF"),
     TB: document.getElementById("openModalTB"),
     HD: document.getElementById("openModalHD"),
-    BL: document.getElementById("openModalBL"),
-    TTT: document.getElementById("openModalTTT"),
-    CIFAR: document.getElementById("openModalCIFAR"),
-    Sandy: document.getElementById("openModalSandy")
   };
 
   // Get close elements for the modals
@@ -362,10 +351,6 @@
     HF: document.getElementById("closeModalHF"),
     TB: document.getElementById("closeModalTB"),
     HD: document.getElementById("closeModalHD"),
-    BL: document.getElementById("closeModalBL"),
-    TTT: document.getElementById("closeModalTTT"),
-    CIFAR: document.getElementById("closeModalCIFAR"),
-    Sandy: document.getElementById("closeModalSandy")
   };
 
   // Event listeners to open modals
