@@ -962,18 +962,17 @@
   </div>
 </div>
 
-<!-- CSS for Flip Card Effect -->
+<!-- CSS for flip-card and centering the images -->
 <style>
-  /* Container for the flip cards */
   .flip-card {
     background-color: transparent;
     width: 200px;
     height: 300px;
-    perspective: 1000px; /* This gives a 3D effect when flipping */
-    margin: 10px;
+    perspective: 1000px; /* Perspective effect */
+    display: inline-block;
+    margin: 20px;
   }
 
-  /* Inner container that holds both the front and back */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -983,37 +982,45 @@
     transform-style: preserve-3d;
   }
 
-  /* On hover, rotate the card */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
 
-  /* The front side of the card */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 15px;
+    overflow: hidden;
   }
 
-  /* Styling for the front side (with image) */
   .flip-card-front {
-    background-color: #FFF5E4;
-    color: black;
+    background-color: #fff;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
   }
 
-  /* Styling for the back side (with text) */
   .flip-card-back {
-    background-color: #FF69B4;
+    background-color: #FFB6C1;
     color: white;
-    transform: rotateY(180deg); /* This is hidden by default until the card flips */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-family: 'Georgia', serif;
-    text-align: center;
+    display: flex; /* Centering the text */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /* Style for the images */
+  .flip-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
   }
 </style>
