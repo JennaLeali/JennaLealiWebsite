@@ -1,49 +1,59 @@
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh; position: relative;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh;">
 
-  <!-- Add subtle animations and shadows -->
-  <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 60px; text-align: center; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); animation: fadeIn 1.5s;">
+  <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
     Jenna Leali 
   </h1>
 
-  <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px; animation: fadeIn 2s;">
+  <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
     Showcasing my abilities in data science and analytics through projects and experiences.
   </p>
 
-  <!-- Glowing button effect on hover -->
-  <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); transition: all 0.3s ease;">
+  <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px;">
     View project on GitHub
   </a>
 
-  <!-- Glowing button on hover -->
-  <style>
-      a:hover {
-        box-shadow: 0 0 20px #FF69B4;
-        transform: scale(1.05);
-      }
-  </style>
+  <!-- Image Animation of You with Glowing Effect -->
+  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;">
 
-  <!-- Image with hover animation -->
-  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; animation: slideUp 2s;">
-
+  <!-- Add Hover Effect to Image -->
   <style>
     img:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 20px #FF69B4;
-    }
-
-    /* Animation for text and images */
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes slideUp {
-      from { transform: translateY(50px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
+      transform: scale(1.2);
+      box-shadow: 0 0 30px #FF69B4;
     }
   </style>
 
+  <!-- Project Cards Section with Glowing Effect -->
+  <div style="display: flex; justify-content: center; gap: 20px; margin-top: 50px; width: 80%;">
+    <!-- Project 1 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 24px;">Project 1</h3>
+      <p>Data analysis on customer behavior patterns.</p>
+    </div>
+    
+    <!-- Project 2 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 24px;">Project 2</h3>
+      <p>Machine learning model predicting stock prices.</p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 24px;">Project 3</h3>
+      <p>Natural language processing for sentiment analysis.</p>
+    </div>
+  </div>
+  
 </div>
+
+<!-- CSS for Hover Effects -->
+<style>
+  /* Hover effect to enlarge and add glow to the project cards */
+  .project-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #FFD700; /* Adds a golden glow */
+  }
+</style>
 ---
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #FFB6C1, #FF69B4); padding: 40px; border-radius: 15px;">
