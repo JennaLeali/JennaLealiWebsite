@@ -2,11 +2,13 @@
 <div style="position: fixed; top: 0; left: 0; right: 0; background-color: #FFB6C1; padding: 15px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); z-index: 999;">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <a href="#home" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Home</a>
-    <a href="#education" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Education</a>
-    <a href="#timeline" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Timeline</a>
-    <a href="#resume" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Resume</a>
-    <a href="#fun-facts" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Fun Facts</a>
+    <a href="#projects" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Projects</a>
     <a href="#contact" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Contact</a>
+    <a href="#education" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Education</a>
+    <a href="#thesis" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Thesis</a>
+    <a href="#resume" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Resume</a>
+    <a href="#timeline" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Timeline</a>
+    <a href="#fun-facts" style="color: white; font-size: 18px; text-decoration: none; padding: 10px;">Fun Facts</a>
   </div>
 </div>
 
@@ -33,34 +35,8 @@
     View project on GitHub
   </a>
 
-  <!-- Project Cards Section arranged horizontally -->
-  <div style="display: flex; justify-content: center; gap: 10px; margin-top: 30px; width: 90%;">
-    <!-- Project 1 -->
-    <div class="project-card" style="background-color: #FFF5E4; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px; color: #FF69B4;">Project 1</h3>
-      <p style="font-size: 14px;">Data analysis on customer behavior patterns.</p>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="project-card" style="background-color: #FFF5E4; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px; color: #FF69B4;">Project 2</h3>
-      <p style="font-size: 14px;">Machine learning model predicting stock prices.</p>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="project-card" style="background-color: #FFF5E4; border-radius: 10px; padding: 15px; width: 180px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px; color: #FF69B4;">Project 3</h3>
-      <p style="font-size: 14px;">Natural language processing for sentiment analysis.</p>
-    </div>
-  </div>
-
   <!-- CSS for Hover Effects -->
   <style>
-    .project-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-    
     img:hover {
       transform: scale(1.2);
       box-shadow: 0 0 30px #FFB6C1;
