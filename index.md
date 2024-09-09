@@ -408,7 +408,7 @@
   </div>
 </div>
 
-<!-- CSS for Hover and Timeline Styling -->
+<!-- Updated CSS for Hover and Timeline Styling -->
 <style>
   /* Hover effect for timeline items */
   .timeline-item:hover .timeline-content {
@@ -418,6 +418,7 @@
   /* Smooth transition when hovering over items */
   .timeline-item:hover .timeline-term {
     color: #FF69B4;
+    transition: color 0.2s;
   }
 
   /* Add hover scaling effect to timeline terms */
@@ -426,19 +427,21 @@
     transition: transform 0.2s;
   }
 
-  /* Add a pulsing effect on the timeline line */
-  .timeline-line {
-    animation: pulse-line 2s infinite;
+  /* Adjust for a smoother hover display */
+  .timeline-content {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
   }
 
-  @keyframes pulse-line {
-    0%, 100% {
-      background-color: #FF69B4;
-    }
-    50% {
-      background-color: #FFD7D7;
-    }
+  .timeline-item:hover .timeline-content {
+    opacity: 1;
   }
+
+  /* Pulled up position to ensure content is more visible */
+  .timeline-content {
+    top: -50px; /* Display content above the timeline term */
+  }
+
 </style>
 
 ---
