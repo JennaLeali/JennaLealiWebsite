@@ -320,63 +320,56 @@
       <!-- Each timeline item -->
       <div class="timeline-item" data-index="0" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2021</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Entered FAU's Honors College, Majored in Data Analytics, took Honors Introductory Statistics</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="1" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2022</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Took Honors Intro to Data Science, Intro to Programming in C</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="2" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2022</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Took Honors Discrete Mathematics</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="3" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2023</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Data Struct/Algorithm Analysis, Honors Calculus-Analyt Geom, Intro to Internet Computing</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="4" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2023</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Intro to Database Structures, Data Analytics Intern at MRI Software</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="5" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2023</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">People Analytics and Data Intern at FreshRX, Intro Artificial Intelligence, Intro Data Mining Mach Learnng, started M.S.</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="6" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2024</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Data Analysis for Managers (masters), Intro Bus Analytics Big Data (masters), Intro to Deep Learning, Software Engineering, graduated with B.S.</p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="7" style="position: relative;">
-        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2024</p>
-        <div class="timeline-content" style="display: none;">
-          <p style="font-size: 16px; color: #000;">Data Analytics Intern at Voloridge, Advanced Business Analytics, AI, Deep Learning (masters)</p>
-        </div>
-      </div>
-
-      <div class="timeline-item" data-index="8" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2024</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 16px; color: #000;">Working Part-Time (25 hours) as Data Analyst at Voloridge, enrolled in M.S. Data Science, planning to graduate Dec 2024</p>
         </div>
       </div>
