@@ -320,17 +320,17 @@
       <!-- Each timeline item -->
       <div class="timeline-item" data-index="0" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2021</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Honors Introductory Statistics<br>
-            <strong>Experience:</strong> Entered FAU's Harriet L. Wilkes Honors College, Majored in Data Analytics
+            <strong>Experience:</strong> Entered FAU's Honors College, Majored in Data Analytics
           </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="1" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2022</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Honors Intro to Data Science, Intro to Programming in C
           </p>
@@ -339,7 +339,7 @@
 
       <div class="timeline-item" data-index="2" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2022</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Honors Discrete Mathematics
           </p>
@@ -348,7 +348,7 @@
 
       <div class="timeline-item" data-index="3" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2023</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Data Structures/Algorithm Analysis, Honors Calculus-Analytic Geometry, Intro to Internet Computing
           </p>
@@ -357,7 +357,7 @@
 
       <div class="timeline-item" data-index="4" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2023</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Intro to Database Structures<br>
             <strong>Experience:</strong> Data Analytics Intern at MRI Software
@@ -367,17 +367,17 @@
 
       <div class="timeline-item" data-index="5" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2023</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Intro to Artificial Intelligence, Intro Data Mining/Machine Learning, Intro to Data Science (M.S.)<br>
-            <strong>Experience:</strong> People Analytics and Data Intern at FreshRX, Began thesis work, Began concurrent enrollment for M.S. in Data Science and Analytics.
+            <strong>Experience:</strong> People Analytics and Data Intern at FreshRX, Began thesis work for M.S.
           </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="6" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2024</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Data Analysis for Managers (M.S.), Intro Business Analytics Big Data (M.S.), Intro to Deep Learning, Software Engineering (M.S.)<br>
             <strong>Experience:</strong> Submitted thesis and graduated with B.S. in Data Analytics
@@ -387,9 +387,9 @@
 
       <div class="timeline-item" data-index="7" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2024</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
-            <strong>Relevant Coursework:</strong> Advanced Business Analytics, Artificial Intelligence, Deep Learning (M.S.)<br>
+            <strong>Relevant Coursework:</strong> Advanced Business Analytics, AI, Deep Learning (M.S.)<br>
             <strong>Experience:</strong> Data Analytics Intern at Voloridge
           </p>
         </div>
@@ -397,10 +397,10 @@
 
       <div class="timeline-item" data-index="8" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2024</p>
-        <div class="timeline-content" style="display: none;">
+        <div class="timeline-content">
           <p style="font-size: 14px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
             <strong>Relevant Coursework:</strong> Data Mining & Machine Learning, Information Retrieval, Intro to Neural Networks, Natural Language Processing (M.S.)<br>
-            <strong>Experience:</strong> Part-Time Data Analyst at Voloridge (25 hrs/week), Planning to graduate with M.S. in Dec 2024
+            <strong>Experience:</strong> Part-Time Data Analyst at Voloridge, Planning to graduate with M.S. in Dec 2024
           </p>
         </div>
       </div>
@@ -479,10 +479,13 @@
     const index = parseInt(this.value);
 
     timelineItems.forEach((item, i) => {
+      const content = item.querySelector(".timeline-content");
       if (i === index) {
         item.classList.add("active");
+        content.style.display = "block";
       } else {
         item.classList.remove("active");
+        content.style.display = "none";
       }
     });
   });
