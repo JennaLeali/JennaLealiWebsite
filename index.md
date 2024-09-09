@@ -918,40 +918,101 @@
 </script>
 
 ---
-<div id="fun-facts" style="background: linear-gradient(135deg, #FFE5E5, #FFD7D7); padding: 60px; border-radius: 15px;">
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 45px; text-align: center;">
+<!-- Fun Facts Section with Flipping Cards -->
+<div id="fun-facts" style="padding: 60px; background-color: #FFD7D7; border-radius: 15px;">
+  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive; color: #FF69B4;">
     Fun Facts About Me
   </h2>
-
-<div style="background: linear-gradient(135deg, #FFE5E5, #FFD7D7); padding: 40px; border-radius: 15px; text-align: center;">
-
-  <!-- Flex container for fun facts -->
-  <div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
-
-    <!-- Fun fact 1 -->
-    <div style="flex: 1; text-align: center;">
-      <p style="font-size: 22px; font-family: 'Comic Sans MS', cursive; color: #FFFFFF;">
-        1. I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.
-      </p>
-      <img src="assets/images/swim.png" alt="Swimming" style="max-width: 150px; border-radius: 5px;">
+  <div class="fun-facts-grid" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 30px;">
+    <!-- Fun Fact 1 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/images/swimming.png" alt="Swimming" style="max-width: 100%; border-radius: 10px;">
+        </div>
+        <div class="flip-card-back">
+          <p style="font-family: 'Georgia', serif; color: #FF69B4;">I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Fun fact 2 -->
-    <div style="flex: 1; text-align: center;">
-      <p style="font-size: 22px; font-family: 'Comic Sans MS', cursive; color: #FFFFFF;">
-        2. My favorite food is crab legs.
-      </p>
-      <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 150px; border-radius: 5px;">
+    <!-- Fun Fact 2 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/images/crab_legs.png" alt="Crab Legs" style="max-width: 100%; border-radius: 10px;">
+        </div>
+        <div class="flip-card-back">
+          <p style="font-family: 'Georgia', serif; color: #FF69B4;">My favorite food is crab legs.</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Fun fact 3 -->
-    <div style="flex: 1; text-align: center;">
-      <p style="font-size: 22px; font-family: 'Comic Sans MS', cursive; color: #FFFFFF;">
-        3. I have a Golden Retriever named Murphy.
-      </p>
-      <img src="assets/images/golden.png" alt="Murphy" style="max-width: 150px; border-radius: 5px;">
+    <!-- Fun Fact 3 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/images/murphy.png" alt="Murphy" style="max-width: 100%; border-radius: 10px;">
+        </div>
+        <div class="flip-card-back">
+          <p style="font-family: 'Georgia', serif; color: #FF69B4;">I have a Golden Retriever named Murphy.</p>
+        </div>
+      </div>
     </div>
-
   </div>
-
 </div>
+
+<!-- CSS for Flip Card Effect -->
+<style>
+  /* Container for the flip cards */
+  .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px; /* This gives a 3D effect when flipping */
+    margin: 10px;
+  }
+
+  /* Inner container that holds both the front and back */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* On hover, rotate the card */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* The front side of the card */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+
+  /* Styling for the front side (with image) */
+  .flip-card-front {
+    background-color: #FFF5E4;
+    color: black;
+  }
+
+  /* Styling for the back side (with text) */
+  .flip-card-back {
+    background-color: #FF69B4;
+    color: white;
+    transform: rotateY(180deg); /* This is hidden by default until the card flips */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Georgia', serif;
+  }
+</style>
