@@ -408,40 +408,37 @@
   </div>
 </div>
 
-<!-- Updated CSS for Hover and Timeline Styling -->
+<!-- CSS for the Timeline and Hover Effect -->
 <style>
-  /* Hover effect for timeline items */
+  /* Hide timeline content by default */
+  .timeline-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF5E4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  /* Display content on hover */
   .timeline-item:hover .timeline-content {
     display: block;
   }
 
-  /* Smooth transition when hovering over items */
+  /* Hover styling for timeline terms */
+  .timeline-term {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
   .timeline-item:hover .timeline-term {
     color: #FF69B4;
-    transition: color 0.2s;
-  }
-
-  /* Add hover scaling effect to timeline terms */
-  .timeline-term:hover {
     transform: scale(1.1);
-    transition: transform 0.2s;
   }
-
-  /* Adjust for a smoother hover display */
-  .timeline-content {
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0;
-  }
-
-  .timeline-item:hover .timeline-content {
-    opacity: 1;
-  }
-
-  /* Pulled up position to ensure content is more visible */
-  .timeline-content {
-    top: -50px; /* Display content above the timeline term */
-  }
-
 </style>
 
 ---
