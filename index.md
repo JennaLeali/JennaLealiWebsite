@@ -111,21 +111,106 @@
 </script>
 ---
 
-<div id="projects" style="padding: 60px; background: linear-gradient(135deg, #FFD7D7, #FFF5E4); border-radius: 15px; text-align: center;">
-  <h2 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #FF69B4; font-size: 40px; margin-bottom: 20px;">
+<!-- Projects Section with Modal -->
+<div id="projects" style="padding: 60px; background-color: #F0F8FF;">
+  <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive, sans-serif; color: #1E90FF;">
     Projects
   </h2>
+  <p style="text-align: center;">Click on a project to learn more.</p>
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <!-- Project 1 -->
-    <div class="project-card" style="background-color: white; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
-      <h3 style="font-family: 'Comic Sans MS', sans-serif; font-size: 20px;">Neural Network Classifier</h3>
-      <a href="projects/neural-network-classifier.html" style="font-size: 16px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Project</a>
+  <!-- Project List -->
+  <ul style="list-style-type: none; text-align: center;">
+    <li>
+      <a href="#" id="openModalNN" style="color: #FF69B4; text-decoration: none; font-size: 18px;">
+        Neural Network Classifier with Gradient Descent Learning
+      </a>
+    </li>
+    <!-- Add more projects here -->
+  </ul>
+
+  <!-- Modal -->
+  <div id="myModalNN" class="modal" style="display: none;">
+    <div class="modal-content" style="background-color: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto;">
+      <span class="close" id="closeModalNN" style="float: right; font-size: 28px; cursor: pointer;">&times;</span>
+      <h2 style="font-family: 'Comic Sans MS', cursive; color: #FF69B4;">Neural Network Classifier with Gradient Descent Learning</h2>
+      <p><strong>Project Overview:</strong> In this project, I implemented a single-layer neural network with gradient descent learning. The project covers important machine learning concepts, such as forward propagation, sigmoid activation, and training using real data.</p>
+      <p><strong>Key Skills Highlighted:</strong></p>
+      <ul>
+        <li>Machine Learning: Built a neural network from scratch, trained it using gradient descent, experimented with learning rates.</li>
+        <li>Data Visualization: Visualized the classifier line, learning curves, and data points to interpret machine learning outcomes.</li>
+        <li>Python Programming: Used Python libraries like numpy and matplotlib to create custom classes and methods.</li>
+      </ul>
+      <p><a href="assets/documents/Neural Network Classifier with Gradient Descent Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
     </div>
-
-    <!-- Add additional project cards below -->
   </div>
 </div>
+
+<!-- CSS for Modal -->
+<style>
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  }
+
+  .modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    border-radius: 10px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style>
+
+<!-- JavaScript for Modal -->
+<script>
+  // Get the modal
+  var modalNN = document.getElementById("myModalNN");
+
+  // Get the button that opens the modal
+  var btnNN = document.getElementById("openModalNN");
+
+  // Get the <span> element that closes the modal
+  var spanNN = document.getElementById("closeModalNN");
+
+  // When the user clicks the button, open the modal 
+  btnNN.onclick = function() {
+    modalNN.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  spanNN.onclick = function() {
+    modalNN.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modalNN) {
+      modalNN.style.display = "none";
+    }
+  }
+</script>
 
 ---
 
