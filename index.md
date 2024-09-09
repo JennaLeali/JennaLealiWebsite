@@ -138,21 +138,21 @@
     
     <!-- Email with Icon -->
     <div>
-      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+      <a href="mailto:jallureleali@gmail.com" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
         <img src="assets/icons/email.png" alt="Email Icon" style="width: 25px;"> Click here to email me
       </a>
     </div>
 
     <!-- LinkedIn with Icon -->
     <div>
-      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+      <a href="https://www.linkedin.com/in/jennaleali/" target="_blank" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
         <img src="assets/icons/linkedin.png" alt="LinkedIn Icon" style="width: 25px;"> Click here to see my LinkedIn
       </a>
     </div>
 
     <!-- GitHub with Icon -->
     <div>
-      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
+      <a href="https://github.com/JennaLeali" target="_blank" style="font-size: 20px; background-color: #FFB6C1; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background-color 0.3s ease, transform 0.3s ease;">
         <img src="assets/icons/github.png" alt="GitHub Icon" style="width: 25px;"> Click here to visit my GitHub
       </a>
     </div>
@@ -163,7 +163,7 @@
 <!-- CSS for Hover Effects and Background Animation -->
 <style>
   #contact a:hover {
-    background-color: #FFB6C1;
+    background-color: #FFD7D7; /* Slightly lighter pink on hover */
     transform: scale(1.05);
   }
 
