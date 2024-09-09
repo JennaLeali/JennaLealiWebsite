@@ -1,19 +1,47 @@
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #6A5ACD, #1E90FF); padding: 60px; border-radius: 15px; min-height: 100vh; position: relative;">
 
-  <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 50px; text-align: center;">
+  <!-- Add subtle animations and shadows -->
+  <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: white; font-size: 60px; text-align: center; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); animation: fadeIn 1.5s;">
     Jenna Leali 
   </h1>
 
-  <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px;">
+  <p style="font-size: 22px; color: white; text-align: center; margin-bottom: 30px; animation: fadeIn 2s;">
     Showcasing my abilities in data science and analytics through projects and experiences.
   </p>
 
-  <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px;">
+  <!-- Glowing button effect on hover -->
+  <a href="https://github.com/JennaLeali" style="font-size: 20px; background-color: #FF69B4; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-bottom: 30px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); transition: all 0.3s ease;">
     View project on GitHub
   </a>
 
-  <!-- Image -->
-  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%;">
+  <!-- Glowing button on hover -->
+  <style>
+      a:hover {
+        box-shadow: 0 0 20px #FF69B4;
+        transform: scale(1.05);
+      }
+  </style>
+
+  <!-- Image with hover animation -->
+  <img src="assets/images/jenna.png" alt="Jenna Leali" style="max-width: 200px; border-radius: 10%; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; animation: slideUp 2s;">
+
+  <style>
+    img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #FF69B4;
+    }
+
+    /* Animation for text and images */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
 
 </div>
 ---
