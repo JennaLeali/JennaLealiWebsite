@@ -140,7 +140,7 @@
         <li>Data Visualization: Visualized the classifier line, learning curves, and data points to interpret machine learning outcomes.</li>
         <li>Python Programming: Used Python libraries like numpy and matplotlib to create custom classes and methods.</li>
       </ul>
-      <p><a href="assets/documents/Neural Network Classifier with Gradient Descent Learning.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
+      <p><a href="assets/documents/Neural%20Network%20Classifier%20with%20Gradient%20Descent%20Learning-Colab.pdf" target="_blank" style="color: #FF69B4;">View Project PDF</a></p>
     </div>
   </div>
 </div>
