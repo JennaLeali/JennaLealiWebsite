@@ -249,16 +249,17 @@
   <div class="floating-shapes" style="position: absolute; top: -100px; left: -100px; background-color: #FF69B4; width: 200px; height: 200px; border-radius: 50%; filter: blur(120px); animation: float 10s ease-in-out infinite;"></div>
   <div class="floating-shapes" style="position: absolute; bottom: -100px; right: -100px; background-color: #FFD700; width: 200px; height: 200px; border-radius: 50%; filter: blur(120px); animation: float 15s ease-in-out infinite reverse;"></div>
 
-  <div style="display: flex; justify-content: space-around; align-items: center; max-width: 80%; margin: 0 auto; position: relative; z-index: 1;">
+  <!-- Centering Content -->
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; max-width: 80%; margin: 0 auto; position: relative; z-index: 1;">
     
-    <!-- Left: Resume link with 3D Button Effect -->
-    <div>
+    <!-- Resume link with 3D Button Effect -->
+    <div style="margin-bottom: 30px;">
       <a href="resume.pdf" target="_blank" style="font-size: 22px; background-color: #FF69B4; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;">
         Click here to view my resume
       </a>
     </div>
 
-    <!-- Right: Resume image with Glow and Hover Effects -->
+    <!-- Resume image with Glow and Hover Effects -->
     <div>
       <img src="assets/images/resume.png" alt="Resume Image" style="max-width: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
     </div>
