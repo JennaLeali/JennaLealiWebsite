@@ -321,87 +321,115 @@
       <div class="timeline-item" data-index="0" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2021</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Entered FAU's Honors College, Majored in Data Analytics, took Honors Introductory Statistics</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Honors Introductory Statistics<br>
+            <strong>Experience:</strong> Entered FAU's Honors College, Majored in Data Analytics
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="1" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2022</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Took Honors Intro to Data Science, Intro to Programming in C</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Honors Intro to Data Science, Intro to Programming in C
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="2" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2022</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Took Honors Discrete Mathematics</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Honors Discrete Mathematics
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="3" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2023</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Data Struct/Algorithm Analysis, Honors Calculus-Analyt Geom, Intro to Internet Computing</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Data Structures/Algorithm Analysis, Honors Calculus-Analytic Geometry, Intro to Internet Computing
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="4" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2023</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Intro to Database Structures, Data Analytics Intern at MRI Software</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Intro to Database Structures<br>
+            <strong>Experience:</strong> Data Analytics Intern at MRI Software
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="5" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2023</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">People Analytics and Data Intern at FreshRX, Intro Artificial Intelligence, Intro Data Mining Mach Learnng, started M.S.</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Intro to Artificial Intelligence, Intro Data Mining/Machine Learning, Intro to Data Science (M.S.)<br>
+            <strong>Experience:</strong> People Analytics and Data Intern at FreshRX, Began thesis work for M.S.
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="6" style="position: relative;">
         <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Spring 2024</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Data Analysis for Managers (masters), Intro Bus Analytics Big Data (masters), Intro to Deep Learning, Software Engineering, graduated with B.S.</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Data Analysis for Managers (M.S.), Intro Business Analytics Big Data (M.S.), Intro to Deep Learning, Software Engineering (M.S.)<br>
+            <strong>Experience:</strong> Submitted thesis and graduated with B.S. in Data Analytics
+          </p>
         </div>
       </div>
 
       <div class="timeline-item" data-index="7" style="position: relative;">
-        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2024</p>
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Summer 2024</p>
         <div class="timeline-content">
-          <p style="font-size: 16px; color: #000;">Working Part-Time (25 hours) as Data Analyst at Voloridge, enrolled in M.S. Data Science, planning to graduate Dec 2024</p>
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Advanced Business Analytics, AI, Deep Learning (M.S.)<br>
+            <strong>Experience:</strong> Data Analytics Intern at Voloridge
+          </p>
         </div>
       </div>
+
+      <div class="timeline-item" data-index="8" style="position: relative;">
+        <p class="timeline-term" style="font-size: 18px; font-weight: bold; color: #FF69B4; margin-bottom: 5px;">Fall 2024</p>
+        <div class="timeline-content">
+          <p style="font-size: 16px; font-family: 'Georgia', serif; color: #333; padding: 10px;">
+            <strong>Relevant Coursework:</strong> Data Mining & Machine Learning, Information Retrieval, Intro to Neural Networks, Natural Language Processing (M.S.)<br>
+            <strong>Experience:</strong> Part-Time Data Analyst at Voloridge, Planning to graduate with M.S. in Dec 2024
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
+
 </div>
 
-<!-- CSS for the Timeline -->
+<!-- Updated CSS for the Timeline and Slider -->
 <style>
-  .timeline-item {
-    flex: 1;
-    text-align: center;
-    cursor: pointer;
+  .timeline-content {
+    font-family: 'Georgia', serif;
   }
 
   .timeline-term {
-    transition: font-size 0.3s ease, transform 0.3s ease;
-  }
-
-  /* Style when a timeline item is active */
-  .timeline-item.active .timeline-term {
-    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive;
     color: #FF69B4;
-    transform: none;
   }
 
-  .timeline-content {
-    display: none;
+  /* Increase font size when a date is active */
+  .timeline-item.active .timeline-term {
+    font-size: 22px;
   }
 
-  .timeline-item.active .timeline-content {
-    display: block;
+  /* Ensure the text looks polished and consistent */
+  .timeline-content p {
+    font-size: 16px;
+    line-height: 1.5;
   }
 </style>
 
