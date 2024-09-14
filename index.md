@@ -921,8 +921,13 @@
 <!-- Fun Facts Section with Swimming Focus -->
 <div id="fun-facts" style="padding: 60px; background-color: #FFD7D7; border-radius: 15px;">
   <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive; color: #FF69B4;">
-    My Competitive Swimming Journey
+    Fun Fact
   </h2>
+  
+  <!-- Fun Fact Description -->
+  <p style="font-family: 'Georgia', serif; color: #FF69B4; text-align: center; font-size: 20px; margin-top: 15px;">
+    I was a competitive swimmer for summer, high school, year-round, and national teams.
+  </p>
 
   <div style="text-align: center; margin-top: 30px;">
     <video width="320" height="240" controls style="border-radius: 15px;">
@@ -930,17 +935,12 @@
       Your browser does not support the video tag.
     </video>
 
-    <!-- Fun Fact Description -->
-    <p style="font-family: 'Georgia', serif; color: #FF69B4; text-align: center; margin-top: 15px;">
-      Fun Fact: I was a competitive swimmer for summer, high school, year-round, and national teams.
-    </p>
-
     <div class="image-gallery" style="display: flex; justify-content: center; gap: 40px; margin-top: 30px;">
       <!-- Image 1 -->
-      <div class="flip-card" style="width: auto; height: auto;">
+      <div class="flip-card" style="width: 300px; height: 300px;">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="assets/images/11046675_10204889542811784_5865731782061539511_n.jpg" alt="Swimming Achievement 1" style="max-width: 100%; border-radius: 10px;">
+            <img src="assets/images/11046675_10204889542811784_5865731782061539511_n.jpg" alt="Swimming Achievement 1" style="width: 100%; height: 100%; border-radius: 10px;">
           </div>
           <div class="flip-card-back">
             <p style="font-family: 'Georgia', serif; color: white; text-align: center;">10 years of competitive swimming with multiple state championship titles.</p>
@@ -949,10 +949,10 @@
       </div>
 
       <!-- Image 2 -->
-      <div class="flip-card" style="width: auto; height: auto;">
+      <div class="flip-card" style="width: 300px; height: 300px;">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="assets/images/10697141_10205775386957334_4906421989544785915_o.jpg" alt="Swimming Achievement 2" style="max-width: 100%; border-radius: 10px;">
+            <img src="assets/images/10697141_10205775386957334_4906421989544785915_o.jpg" alt="Swimming Achievement 2" style="width: 100%; height: 100%; border-radius: 10px;">
           </div>
           <div class="flip-card-back">
             <p style="font-family: 'Georgia', serif; color: white; text-align: center;">A dedicated and persistent athlete, pushing through every challenge in and out of the pool.</p>
@@ -975,6 +975,8 @@
 
   .flip-card-inner {
     position: relative;
+    width: 100%;
+    height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -1014,9 +1016,7 @@
   }
 
   .flip-card img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px;
   }
 </style>
