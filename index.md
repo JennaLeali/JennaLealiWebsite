@@ -923,14 +923,21 @@
   <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive; color: #FF69B4;">
     My Competitive Swimming Journey
   </h2>
+
   <div style="text-align: center; margin-top: 30px;">
     <video width="320" height="240" controls style="border-radius: 15px;">
       <source src="assets/images/IMG_1865.MOV.mov" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+
+    <!-- Fun Fact Description -->
+    <p style="font-family: 'Georgia', serif; color: #FF69B4; text-align: center; margin-top: 15px;">
+      Fun Fact: I was a competitive swimmer for summer, high school, year-round, and national teams.
+    </p>
+
     <div class="image-gallery" style="display: flex; justify-content: center; gap: 40px; margin-top: 30px;">
       <!-- Image 1 -->
-      <div class="flip-card">
+      <div class="flip-card" style="width: auto; height: auto;">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img src="assets/images/11046675_10204889542811784_5865731782061539511_n.jpg" alt="Swimming Achievement 1" style="max-width: 100%; border-radius: 10px;">
@@ -940,8 +947,9 @@
           </div>
         </div>
       </div>
+
       <!-- Image 2 -->
-      <div class="flip-card">
+      <div class="flip-card" style="width: auto; height: auto;">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img src="assets/images/10697141_10205775386957334_4906421989544785915_o.jpg" alt="Swimming Achievement 2" style="max-width: 100%; border-radius: 10px;">
@@ -959,17 +967,14 @@
 <style>
   .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 300px;
-    perspective: 1000px;
+    perspective: 1000px; /* Perspective effect */
     display: inline-block;
     margin: 20px;
+    border-radius: 10px;
   }
 
   .flip-card-inner {
     position: relative;
-    width: 100%;
-    height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -984,12 +989,11 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
   }
 
   .flip-card-front {
-    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
