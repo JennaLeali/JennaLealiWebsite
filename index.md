@@ -918,57 +918,50 @@
 </script>
 
 ---
-<!-- Fun Facts Section with Flipping Cards -->
+<!-- Fun Facts Section with Swimming Focus -->
 <div id="fun-facts" style="padding: 60px; background-color: #FFD7D7; border-radius: 15px;">
   <h2 style="text-align: center; font-family: 'Comic Sans MS', cursive; color: #FF69B4;">
-    Fun Facts About Me
+    My Competitive Swimming Journey
   </h2>
-  <div class="fun-facts-grid" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 30px;">
-    <!-- Fun Fact 1 -->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="assets/images/swim.png" alt="Swimming" style="max-width: 100%; border-radius: 10px;">
-        </div>
-        <div class="flip-card-back">
-          <p style="font-family: 'Georgia', serif; color: white; text-align: center;">I was a competitive swimmer growing up, participating in year-round, high school, summer league, and national teams.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Fun Fact 2 -->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="assets/images/crab.png" alt="Crab Legs" style="max-width: 100%; border-radius: 10px;">
-        </div>
-        <div class="flip-card-back">
-          <p style="font-family: 'Georgia', serif; color: white; text-align: center;">My favorite food is crab legs.</p>
+  <div style="text-align: center; margin-top: 30px;">
+    <video width="320" height="240" controls style="border-radius: 15px;">
+      <source src="assets/images/IMG_1865.MOV.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="image-gallery" style="display: flex; justify-content: center; gap: 40px; margin-top: 30px;">
+      <!-- Image 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/images/11046675_10204889542811784_5865731782061539511_n.jpg" alt="Swimming Achievement 1" style="max-width: 100%; border-radius: 10px;">
+          </div>
+          <div class="flip-card-back">
+            <p style="font-family: 'Georgia', serif; color: white; text-align: center;">10 years of competitive swimming with multiple state championship titles.</p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- Fun Fact 3 -->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="assets/images/golden.png" alt="Murphy" style="max-width: 100%; border-radius: 10px;">
-        </div>
-        <div class="flip-card-back">
-          <p style="font-family: 'Georgia', serif; color: white; text-align: center;">I have a Golden Retriever named Murphy.</p>
+      <!-- Image 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/images/10697141_10205775386957334_4906421989544785915_o.jpg" alt="Swimming Achievement 2" style="max-width: 100%; border-radius: 10px;">
+          </div>
+          <div class="flip-card-back">
+            <p style="font-family: 'Georgia', serif; color: white; text-align: center;">A dedicated and persistent athlete, pushing through every challenge in and out of the pool.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- CSS for flip-card and centering the images -->
+<!-- CSS for flip-card and video -->
 <style>
   .flip-card {
     background-color: transparent;
     width: 200px;
     height: 300px;
-    perspective: 1000px; /* Perspective effect */
+    perspective: 1000px;
     display: inline-block;
     margin: 20px;
   }
@@ -997,17 +990,17 @@
 
   .flip-card-front {
     background-color: #fff;
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Horizontally center the image */
-    align-items: center; /* Vertically center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .flip-card-back {
     background-color: #FFB6C1;
     color: white;
-    display: flex; /* Centering the text */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotateY(180deg);
   }
 
@@ -1016,7 +1009,6 @@
     padding: 10px;
   }
 
-  /* Style for the images */
   .flip-card img {
     max-width: 100%;
     max-height: 100%;
