@@ -935,6 +935,11 @@
       Your browser does not support the video tag.
     </video>
 
+    <!-- New text below the video -->
+    <p style="font-family: 'Georgia', serif; color: #FF69B4; text-align: center; font-size: 18px; margin-top: 10px;">
+      Watch my 50-meter freestyle victory at the Year-Round USA Swimming Louisiana State Championship Meet.
+    </p>
+
     <div class="image-gallery" style="display: flex; justify-content: center; gap: 40px; margin-top: 30px;">
       <!-- Image 1 -->
       <div class="flip-card" style="width: 300px; height: 300px;">
